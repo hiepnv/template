@@ -1,0 +1,17 @@
+/**
+ * @author JoomlaShine.com Team
+ * @copyright JoomlaShine.com
+ * @link joomlashine.com
+ * @package JSN ImageShow
+ * @version $Id: jsn_apilefix.css 10541 2011-12-28 07:11:08Z hieudm $
+ * @license GNU/GPL v2 http://www.gnu.org/licenses/gpl-2.0.html
+ */
+#ap-mainbody #ap-title {
+	overflow: visible;
+}
+#ap-mainbody div.pagetitle {
+	text-shadow: none;
+}
+#ap-mainbody #toolbar #jsn-menu {
+	margin: 0;
+}

@@ -1,0 +1,215 @@
+/* CSS Document */
+/*===================WINDOW STYLE FOR SITE MANAGER===========================*/
+div.ui-widget-overlay {
+	opacity: 0.75;
+	filter: alpha(opacity=75);
+}
+div.img-box-loading {
+	width: 48px;
+	height: 48px;
+	opacity: 0.75;
+	filter: alpha(opacity=75);
+	white-space: nowrap;
+	position: relative!important;
+	background: #000 url(../images/box-show-loading-bg.png) no-repeat;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+div.img-box-loading .imgLoading {
+	position: relative;
+}
+div.ui-widget-overlay-changemode{
+	width:100%;
+	height:100%;
+	top:0px;
+	position:absolute;
+	background:#FFF;
+}
+div.ui-window-site-manager {
+	padding: 2px;
+	background-color: #FFF;
+}
+div.ui-window-site-manager .ui-window-content {
+	padding: 0;
+}
+.jsnui-window-iframe,
+div.ui-window-site-manager .ui-window-content iframe {
+	overflow-x: hidden;
+	overflow-y: scroll; 
+}
+div.ui-window-site-manager .ui-dialog-title {
+	font-size: 15px;
+}
+div.ui-window-site-manager .ui-widget-content {
+	background-color: #FFF;
+}
+/*
+div.ui-window-site-manager .ui-dialog-titlebar {
+	padding: 5px 0;
+	top:0px;	
+	background-color: #4EA2E5;
+}
+div.ui-window-site-manager .ui-widget-header {
+	background: #4EA2E5 url(../images/bg-modal-button.png) 0 -90px repeat-x;
+}
+div.ui-window-site-manager .ui-corner-all {
+	border: none;
+	height: 20px;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+}
+*/
+div.ui-window-site-manager .ui-icon ui-icon-closethick {
+	background: url(../images/ui-window-site-manager-close-buttonpng.png) no-repeat;
+}
+div.ui-window-site-manager .ui-dialog-titlebar-close {
+	margin: -12px -2px 0 0;	
+}
+div.ui-window-site-manager .ui-window-toolbar-button {
+	margin: 0;
+	padding: 8px 10px;
+	position: relative;
+	background-color: #EFEFEF;
+	border-bottom: 1px solid #CCCCCC;
+	behavior: url(/PIE.htc);
+}
+div.ui-window-site-manager .ui-window-toolbar-button button.ui-state-default {
+	color: #000;
+	height: auto;
+	margin: 0 0 0 8px;
+	border: 1px solid #ccc;
+	font: bold 11px Arial, Helvetica, sans-serif;
+	background: #FFF url(../images/bg-modal-button.png) 0 -50px repeat-x;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	box-shadow: 0 0 3px #ccc;
+	-moz-box-shadow: 0 0 3px #ccc;
+	-webkit-box-shadow: 0 0 3px #ccc;
+}
+
+div.ui-window-site-manager .ui-window-toolbar-button button.ui-state-hover {
+	color: #000;
+	font-weight: bold;
+	border: 1px solid #999;
+	background: #FFD75E url(../images/bg-modal-button.png) left -205px repeat-x;
+	behavior: url(/PIE.htc);
+}
+div.ui-window-site-manager .ui-window-toolbar-button button.ui-state-active {
+	background-position: 0 -370px;
+	border-color: #999 !important;
+}
+div.ui-window-site-manager .ui-window-toolbar-button button.ui-state-default:first-child {
+	background-position: 0 -10px;
+	border-color: #EDA03C;
+	box-shadow: 0 0 3px #bbb;
+	-moz-box-shadow: 0 0 3px #bbb;
+	-webkit-box-shadow: 0 0 3px #bbb;
+}
+div.ui-window-site-manager .ui-window-toolbar-button button.ui-state-hover:first-child {
+	background-position: 0 -175px;
+	border-color: #F5AE53;
+}
+div.ui-window-site-manager .ui-window-toolbar-button button.ui-state-active:first-child {
+	background-position: 0 -335px;
+	border-color: #BD761A !important;
+}
+div.ui-window-site-manager .ui-window-toolbar-button button.ui-button span.ui-button-text {
+	font-size: 11px;
+	margin-top: -1px;
+	font-weight: bold;
+	padding: 4px 13px;
+	font: Arial, Helvetica, sans-serif;
+}
+div.ui-window-site-manager .ui-window-confirmation-content,
+.ui-dialog.ui-widget-content .ui-window-confirmation-content {
+	padding: 10px;
+}
+div.ui-window-site-manager .ui-window-confirmation {
+	margin: 0;
+}
+.ui-window-toolbar-title {
+	margin: 0;
+	color: #000;
+	background-color: #EFEFEF;
+	font: 18px Arial, Helvetica, sans-serif;
+	width:auto;
+}
+.ui-window-searchbar{
+	float:right;
+	color:#CCCCCC;
+	font-size:14px;
+	padding-left:5px;
+	background:#fff;
+	border:1px solid #CCCCCC;
+}
+.ui-window-closetext-keyword{
+	width:15px;
+	height:10px;
+	position:absolute;
+	right:8px;
+	top:15px;
+	cursor:pointer;
+	display:none;
+	text-decoration:none;
+	text-align:right;
+	background:url(../images/ui-window-closetextkeyword.png) no-repeat;
+}
+button.ui-window-switchmode{
+	position:absolute;
+	left:40%;
+	top:6px;
+	height:24px;
+	width:140px;
+	margin:0px;
+	font:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+    padding-bottom:2px;
+	border:1px solid #CCCCCC;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;	
+	behavior: url(/PIE.htc);
+	background: #EFEFEF url(../images/bg-modal-button.png) left -106px repeat-x;
+}
+.ui-dialog.ui-widget-content button.ui-window-switchmode:hover{
+	border:1px solid #CCCCCC;
+	-moz-box-shadow: 0px 0px 2px #CCCCCC;
+	-webkit-box-shadow: 0px 0px 2px #CCCCCC;
+	box-shadow: 0px 0px 2px #CCCCCC;
+	background: #EFEFEF url(../images/bg-modal-button.png) left -106px repeat-x;
+}
+.ui-dialog.jsn-poweradmin-message{	
+	padding: 20px;
+	background:#FFFFFF;
+	border:2px solid #6BB337;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px; 
+	-webkit-box-shadow: 0px 0px 3px 2px #CCCCCC;
+	-moz-box-shadow: 0px 0px 3px 2px #CCCCCC;
+	box-shadow: 0px 0px 3px 2px #CCCCCC;	
+	behavior: url(/PIE.htc);
+}
+.ui-dialog.jsn-poweradmin-message div{
+	overflow: hidden;
+}
+.jsn-poweradmin-message .ui-dialog-content,
+.jsn-poweradmin-message .ui-widget-content{
+	text-align:center;
+	font-size:12px;
+	color:#666666;
+	padding: 0px;
+}
+/*=========================DIALOG TIMEOUT WARNING FOR ADMINBAR========================*/
+.jsn-adminbar-timeout-warning .ui-dialog-titlebar .ui-dialog-titlebar-close{
+	visibility:hidden;
+}
+.jsn-adminbar-timeout-warning .ui-window-confirmation-content{
+	line-height:60px;
+	text-align:center;
+}
+

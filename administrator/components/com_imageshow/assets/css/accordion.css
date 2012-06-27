@@ -1,0 +1,46 @@
+.jsn-accordion-control {
+	color: #0b55c4;
+}
+.jsn-accordion-control span {
+	margin: 0;
+	cursor: pointer;
+}
+.jsn-accordion-title {
+	color: #666;
+	padding: 6px 8px;
+	cursor: pointer;
+	margin: 8px 0 0 0;
+	background: #e9e9e9;
+	border: 1px solid #ccc;
+	font-weight: bold;
+	transition: 0.3s ease-out;
+	-moz-transition: 0.3s ease-out;
+	-webkit-transition: 0.3s ease-out;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+.jsn-accordion-title.first {
+	margin-top: 0;
+}
+.jsn-accordion-title.down,
+.jsn-accordion-title.down:hover {
+	font-weight: bold;
+	color: #ffcf40;
+	border: 1px solid #000;
+	background: url(../images/backgrounds/bg-dgrey-heading.png) left bottom repeat-x;
+}
+.jsn-accordion-title:hover {
+	background: #d4d4d4;
+}
+.jsn-accordion-button {
+	width: 10px;
+	height: 10px;
+	float: right;
+	margin: 5px 0;
+	background: url(../images/collapse.png) 0 0 no-repeat;
+}
+.button-down {
+	margin: 7px 4px;
+	background: url(../images/expand.png) 0 0 no-repeat;
+}

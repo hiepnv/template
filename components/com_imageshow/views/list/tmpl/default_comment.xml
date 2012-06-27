@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="MENU_IMAGESHOW_LISTING_LAYOUT" option="MENU_IMAGESHOW_LISTING_LAYOUT">
+		<help key = "MENU_IMAGESHOW_LISTING_LAYOUT" />
+		<message>
+			<![CDATA[MENU_IMAGESHOW_LISTING_LAYOUT_DESC]]>
+		</message>
+	</layout>
+
+	<!-- Add fields to the request variables for the layout. -->
+	<fields name="params">
+		<fieldset name="request" addfieldpath="/administrator/components/com_imageshow/elements">
+			<field name="showlist_id" type="jsnmultipleshowlist" section="com_imageshow" default="0" label="MENU_SHOWLISTS_LABEL" description="MENU_SHOWLISTS_DESC" />	
+			<field name="showcase_id" type="jsnmultipleshowcase" section="com_imageshow" default="0" label="MENU_SHOWCASES_LABEL" description="MENU_SHOWCASES_DESC" />
+			<field name="layout" type="jsnlayout" section="com_imageshow" default="thumbnails" label="MENU_LAYOUT_LABEL" description="MENU_LAYOUT_DESC" />	
+			<field name="view_type" type="jsnviewtype" section="com_imageshow" default="" label="MENU_VIEW_TYPE_LABEL" description="MENU_VIEW_TYPE_DESC" />	
+			<field name="dimension_modal" type="jsndimensionmodal" section="com_imageshow" default="" label="MENU_OVERALL_MODAL_DIMENSION_LABEL" description="MENU_OVERALL_MODAL_DIMENSION_DESC" />		
+		</fieldset>
+	</fields>
+</metadata>

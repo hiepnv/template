@@ -1,0 +1,56 @@
+/**
+ * @author JoomlaShine.com Team
+ * @copyright JoomlaShine.com
+ * @link joomlashine.com
+ * @package JSN ImageShow
+ * @version $Id: fixie8.css 13217 2012-06-11 11:42:18Z sonlm $
+ * @license GNU/GPL v2 http://www.gnu.org/licenses/gpl-2.0.html
+ */
+table.configuration-flickr input,
+table.configuration-folder input,
+table.configuration-picasa input {
+	width: 97%;
+}
+body {
+	height: 90%;
+}
+div.current dd > table {
+	position: relative;
+	left: -40px;
+}
+#mytabs {
+	padding-bottom: 5px;
+}
+.clearafter {
+	height: 1%;
+}
+
+#panel-center .sourcevideo-header {
+	height: 45px;
+}
+
+div.loaded a.image_link {
+	display: table-cell;
+	float: left;
+}
+div.loaded a.image_link {
+	display: block;
+}
+
+.showgrid .image-item-is-selected .img-mark-isselected,
+.showlist .image-item-is-selected .img-mark-isselected {
+	background: url("../images/icon-uni-24/icon-check-success-install.gif") no-repeat;
+}
+
+.showlist .image-item-is-selected .video-info {
+	padding-left: 10px !important;
+}
+
+.showlist .multiselectable-previous.image-item-multiple-select .video-info,
+.showlist .multiselectable-previous .video-info {
+	padding-left: 10px !important;
+}
+
+.edit-image-container div {
+	float: left;
+}

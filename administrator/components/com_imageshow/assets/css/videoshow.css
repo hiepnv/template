@@ -1,0 +1,2965 @@
+/**
+ * @author JoomlaShine.com Team
+ * @copyright JoomlaShine.com
+ * @link joomlashine.com
+ * @package JSN videoshow
+ * @version $Id: videoshow.css 11046 2012-02-06 09:31:39Z trungnq $
+ * @license GNU/GPL v2 http://www.gnu.org/licenses/gpl-2.0.html
+ */
+/* ============================== DEFAULT HTML ============================== */
+/* =============== DEFAULT HTML - GENERAL STYLES =============== */
+html {
+	overflow: auto !important;
+}
+html, body {
+	margin: 0;
+	padding: 0;
+	line-height: 1.5;
+}
+html body.contentpane {
+	height: auto;
+	font-size: 75%;
+}
+/* =============== DEFAULT HTML - TEXT STYLES =============== */
+p, pre, blockquote, form, dl, ul, ol, fieldset, address {
+	padding: 0;
+	margin: 0.35em 0 0.8em;
+}
+fieldset {
+	margin: 5px;
+	background-color: #FFF;
+}
+body p {
+	padding: 0;
+	color: inherit;
+	margin: 0.35em 0 0.8em;
+}
+body input,
+body select {
+	font-size: 10px;
+}
+button {
+	width: auto;
+	overflow: visible;
+	*margin: 0 2px;
+	*padding: 0 5px;
+}
+/* =============== DEFAULT HTML - HEADING STYLES =============== */
+h1 {
+	color: #000000;
+	font-size: 1.5em;
+}
+h2 {
+	color: #000000;
+	font-size: 1.4em;
+}
+h3 {
+	color: #CC3333;
+	font-size: 1.3em;
+}
+h4 {
+	color: #CC8033;
+	font-size: 1.2em;
+}
+h5, h6 {
+	color: #333333;
+	font-size: 1.1em;
+	font-weight: bold;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0.8em 0 0.3em;
+}
+.jsn-readonly {
+	padding: 3px;
+	background-color: #E9E9E9;
+	border: 1px solid #B9B9B9;
+	font: 12px Arial, Helvetica, sans-serif;
+}
+.clearbreak {
+	clear: both;
+}
+.clearafter:after {
+	height: 0;
+	clear: both;
+	content: ".";
+	display: block;
+	visibility: hidden;
+}
+/* ============================== TYPOGRAPHY ============================== */
+/* =============== TYPOGRAPHY - GENERAL TYPOGRAPHY =============== */
+hr {
+	height: 1px;
+	margin: 1.5em 0;
+	border: medium none;
+	background-color: #E6E6E6;
+}
+/* ----- TEXT ----- */
+.content-center {
+	text-align: center;
+}
+.tips {
+	padding-left: 20px;
+	background: url(../images/icon-uni-16/icons-uni-16.png) left -172px no-repeat;
+}
+.text-alert {
+	border-top: 2px solid #FEABAB;
+	border-bottom: 2px solid #FEABAB;
+	padding: 0.6em 0.8em 0.6em 4.8em;
+	background: #FFDFDF url(../images/icon-uni-24/icon-warning.png) 20px center no-repeat;
+}
+/* ----- LINKS ----- */
+.jsn-link-arrow {
+	padding-left: 10px;
+	list-style-image: url(../images/link-arrow.png);
+}
+.jsn-action-link,
+.jsn-action-link:link,
+.jsn-action-link:visited {
+	color: #025A8D;
+	cursor: pointer;
+	padding: 1px 2px;
+	font-weight: bold;
+	text-decoration: none;
+	border-bottom: 1px solid #0B55C4;
+	transition: color 0.3s linear, background 0.3s ease-out;
+	-moz-transition: color 0.3s linear, background 0.3s ease-out;
+	-webkit-transition: color 0.3s linear, background 0.3s ease-out;
+}
+.jsn-action-link:hover {
+	color: #fff;
+	text-decoration: none;
+	background-color: #0B55C4;
+}
+/* ----- HORIZONTAL LIST ----- */
+ul.list-horizontal {
+	margin: 0;
+	list-style: none;
+}
+ul.list-horizontal li {
+	margin: 0 .5em;
+	display: inline;
+}
+/* ----- NOBULLET LIST ----- */
+ul.list-nobullet {
+	margin: 0;
+	list-style: none;
+}
+ul.list-nobullet li {
+	margin-left: 0;
+	padding-left: 0;
+	list-style: none;
+}
+/* ----- TABLE STYLES ----- */
+table.admintable td {
+	padding: 3px;
+	font-size: 12px;
+}
+
+table.admintable input,
+table.admintable select {
+	margin: 0;
+	float: none;
+}
+table.admintable input.inputbox {
+	float: none;
+	margin : 5px 5px 0 5px;
+}
+table.admintable label {
+	float: none;
+	margin: 0;
+	display: inline;
+}
+table.admintable .readonly {
+	background-color: #FFF;
+}
+/* ----- BUTTON ----- */
+.link-button {
+	cursor: pointer;
+	font-size: 1.1em;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 5px 12px;
+	border: 1px solid;
+	display: inline-block;
+	border-color: #595959;
+	background: url(../images/backgrounds/bg-button.png) left center repeat-x;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	transition: 0.3s ease-out;
+	-moz-transition: 0.3s ease-out;
+	-webkit-transition: 0.3s ease-out;
+}
+.link-button:hover {
+	text-decoration: none;
+	border-color: #000;
+	box-shadow: 0 0 3px #333;
+	-moz-box-shadow: 0 0 3px #333;
+	-webkit-box-shadow: 0 0 3px #333;
+}
+
+.button-normal {
+	color: #666;
+	border-color: #999;
+	background: url(../images/backgrounds/bg-button.png) left center repeat-x;
+}
+.button-normal:hover{
+	color: #000;
+	box-shadow: 0 0 3px #666;
+	-moz-box-shadow: 0 0 3px #666;
+	-webkit-box-shadow: 0 0 3px #666;
+}
+.link-disabled {
+	color: #999;
+	background: none;
+	font-weight: bold;
+}
+a.link-disabled:hover,
+.link-disabled a:hover {
+	color: #999;
+	cursor: default;
+}
+.jsn-button,
+.jsn-button:link {
+	color: #333333;
+	cursor: pointer;
+	font-size: 14px;
+	min-width: 100px;
+	min-width: auto;
+	font-weight: bold;
+	padding: 5px 12px;
+	display: inline-block;
+	text-decoration: none;
+	border: 1px solid #999999;
+	font-family: Arial, Helvetica, sans-serif;
+	background: url(../images/backgrounds/bg-button.png) left center repeat-x;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	*padding-top: 0;
+	*padding-bottom: 0;
+}
+.jsn-button-disabled,
+.jsn-button-disabled:link,
+.jsn-button-disabled:hover {
+	color: #ACA899;
+	cursor: default;
+	background: #F5F4EA;
+}
+.jsn-button-container {
+	text-align: center;
+}
+.link-button span[class*="icon-"] {
+	padding-left: 22px;
+	display: inline-block;
+}
+.link-button .icon-box {
+	background: url(../images/icon-uni-16/icon-box.png) left center no-repeat;
+}
+.link-button .icon-vote {
+	background: url(../images/icon-uni-16/icon-vote.png) left center no-repeat;
+}
+.link-icon img:hover {
+	box-shadow: 0 0 3px #333;
+	-moz-box-shadow: 0 0 3px #333;
+	-webkit-box-shadow: 0 0 3px #333;
+	transition: 0.3s ease-out;
+	-moz-transition: 0.3s ease-out;
+	-webkit-transition: 0.3s ease-out;
+}
+/* ============================== HEADER ICON ============================== */
+div.pagetitle {
+	height: 48px;
+	display: block;
+	padding-left: 55px;
+	background-position: 4px 2px !important;
+	background-repeat: no-repeat !important;
+	text-shadow: 1px 1px 1px #CCCCCC;
+}
+#content-box div.pagetitle {
+	display: block;
+	margin-left: 4px;
+	padding-left: 60px;
+}
+div.pagetitle h2 {
+	font-size: 22px;
+	line-height: 48px !important;
+}
+div.pagetitle.icon-48-launchpad {
+	background-image: url(../images/icon-uni-48/icon-launchpad.png) !important;
+}
+div.pagetitle.icon-48-showlist,
+div.pagetitle.icon-48-showlist-settings {
+	background-image: url(../images/icon-uni-48/icon-showlist.png) !important;
+}
+div.pagetitle.icon-48-showcase {
+	background-image: url(../images/icon-uni-48/icon-showcase.png) !important;
+}
+div.pagetitle.icon-48-help {
+	background-image: url(../images/icon-uni-48/icon-help.png) !important;
+}
+div.pagetitle.icon-48-about {
+	background-image: url(../images/icon-uni-48/icon-about.png) !important;
+}
+div.pagetitle.icon-48-maintenance,
+div.pagetitle.icon-48-configuration,
+div.pagetitle.icon-48-configuration-settings {
+	background-image: url(../images/icon-uni-48/icon-configuration.png) !important;
+}
+/* ============================== BOX STYLES ============================== */
+.jsn-dgrey-container {
+	color: #FFF;
+	background: #6A6A6A url(../images/backgrounds/bg-dgrey-box.png) left bottom repeat-x;
+}
+.jsn-dgrey-container-style {
+	border: 2px solid #333;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	box-shadow: 0 2px 5px 0 #666;
+	-moz-box-shadow: 0 2px 5px 0 #666;
+	-webkit-box-shadow: 0 2px 5px 0 #666;
+}
+.jsn-orange-container {
+	background: #FFD75E url(../images/backgrounds/bg-orange-box.png) left bottom repeat-x ;
+}
+.jsn-orange-container-style {
+	border: 2px solid #FF9901;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	box-shadow: 2px 2px 2px #CFCFCF;
+	-moz-box-shadow: 2px 2px 2px #CFCFCF;
+	-webkit-box-shadow: 2px 2px 2px #CFCFCF;
+}
+.jsn-dgrey-heading {
+	background: #6A6A6A url(../images/backgrounds/bg-dgrey-heading.png) left bottom repeat-x;
+}
+.jsn-dgrey-heading-style {
+	border: 2px solid #333;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	box-shadow: 0 2px 5px 0 #666;
+	-moz-box-shadow: 0 2px 5px 0 #666;
+	-webkit-box-shadow: 0 2px 5px 0 #666;
+}
+.jsn-element-heading {
+	margin: 0;
+	color: #000;
+	font-size: 16px;
+	font-weight: bold;
+}
+.jsn-dgrey-heading .jsn-element-heading,
+.jsn-dgrey-container .jsn-element-heading {
+	padding: 8px;
+	color: #FFCF40;
+	text-shadow: 0 1px 3px #333;
+}
+.jsn-orange-container .jsn-element-heading {
+	color: #333333;
+}
+.jsn-element-heading-arrow {
+	top: 5px;
+	right: 8px;
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	background: url(../images/icon-uni-16/icons-uni-16.png) left -602px no-repeat;
+}
+.jsn-element-heading-arrow-collapse {
+	background: url(../images/icon-uni-16/icons-uni-16.png) left -513px no-repeat;
+}
+.jsn-element-heading-title{
+	display: none;
+}
+#jsn-showcase-detail-heading,
+#jsn-showlist-detail-heading {
+	cursor: pointer;
+	position: relative;
+}
+/* ============================== LAUNCH PAD ============================== */
+.jsn-cpanel-container {
+	width: 500px;
+	font-size: 12px;
+	margin: 30px auto;
+	line-height: 1.5em;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.jsn-cpanel-container .jsn-cpanel-block {
+	position: relative;
+	margin-bottom: 22px;
+}
+.jsn-cpanel-container .jsn-gallery-option {
+	padding: 17px 15px;
+}
+.jsn-cpanel-container .jsn-gallery-option .jsn-element-heading {
+	padding: 0;
+}
+.jsn-process-step {
+	top: 24px;
+	left: -108px;
+	width: 76px;
+	position: absolute;
+	text-align: center;
+	background-color: #FFF;
+	border: 1px solid #D4D4D4;
+	border-radius: 75px;
+	-moz-border-radius: 75px;
+	-webkit-border-radius: 75px;
+}
+.jsn-process-step h3 {
+	margin: 0;
+	color: #D4D4D4;
+	font-size: 50px;
+	line-height: 76px;
+	text-shadow: 1px 1px 0 #989898;
+}
+.jsn-gallery-selection {
+	position: relative;
+}
+.jsn-gallery-selection .jsn-gallery-selectbox {
+	float: left;
+	color: #000;
+	width: 365px;
+	padding: 6px;
+	margin-right: 5px;
+	font-size: 16px;
+	background-color: #FFF;
+	border: 1px solid #C6C6C6;
+}
+.jsn-gallery-selection #presentation_method {
+	color: #666666;
+	background-color: #EEEEEE;
+}
+.jsn-gallery-selection #presentation_method.active {
+	color: #000;
+	background-color: #FFF;
+}
+.jsn-gallery-selection .jsn-button {
+	right: 0;
+	bottom: 0;
+	width: 90px;
+	min-width: 90px;
+	padding: 7px 0;
+	font-size: 16px;
+	text-align: center;
+	position: absolute;
+}
+.jsn-gallery-selection .jsn-button.disabled {
+	color: #999;
+	background: #E4E4E4;
+}
+.jsn-gallery-selection .jsn-button:hover {
+	text-decoration: none;
+}
+.jsn-gallery-nav-button {
+	float: left;
+	margin: 6px 0;
+	display: block;
+}
+.jsn-gallery-nav-button a {
+	width: 24px;
+	height: 24px;
+	margin-left: 5px;
+	position: relative;
+	display: inline-block;
+	vertical-align: bottom;
+}
+.jsn-gallery-nav-button a:hover {
+	text-decoration: none;
+}
+.jsn-gallery-nav-button .icon-add {
+	background: url(../images/icon-uni-24/icon-add.png) left top no-repeat;
+}
+.jsn-gallery-nav-button .icon-add:hover {
+	background-position: left -24px;
+}
+.jsn-gallery-nav-button .icon-folder {
+	background: url(../images/icon-uni-24/icon-folder.png) left top no-repeat;
+}
+.jsn-gallery-nav-button .icon-folder:hover {
+	background-position: left -24px;
+}
+.jsn-gallery-nav-button .icon-edit {
+	background: url(../images/icon-uni-24/icon-edit.png) left top no-repeat;
+}
+.jsn-gallery-nav-button .icon-edit:hover {
+	background-position: left -24px;
+}
+.jsn-gallery-nav-button .icon-edit.icon-disabled {
+	background-position: left -48px;
+}
+.jsn-menutype-selection {
+	display: none;
+	margin-top: 10px;
+}
+.jsn-plugin-details h3 {
+	color: #000;
+	margin-top: 0;
+	padding-bottom: 4px;
+	font-size: 18px;
+	font-weight: normal;
+	border-bottom: 1px solid #CCCCCC;
+}
+.jsn-plugin-details p {
+	margin: 10px 0;
+}
+.jsn-informing-about-product p {
+	text-align: center;
+}
+.jsn-plugin-details ul {
+	margin: 0 0 0 5px;
+	list-style-position: inside;
+}
+.jsn-plugin-details ul li .syntax-highlight {
+	color: #009900;
+	font-weight: bold;
+}
+.jsn-plugin-details #additional-syntax {
+	padding: 10px;
+	margin-top: 16px;
+	border: 1px solid #CCC;
+	background-color: #EFEFEF;
+}
+.jsn-plugin-details #additional-syntax p {
+	margin-top: 8px;
+	margin-bottom: 2px;
+}
+.jsn-plugin-details #additional-syntax .tips {
+	margin: 0;
+	padding-bottom: 5px;
+	font-size: 1.2em;
+	font-weight: bold;
+	border-bottom: 1px solid #CCC;
+}
+#syntax-plugin {
+	width: 97%;
+	height: 20px;
+	background: #e9e9e9;
+}
+.jsn-clipboard-input {
+	width: 75%;
+	float: left;
+	position: relative;
+}
+.jsn-clipboard-checkicon {
+    top: 8px;
+    right: 10px;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+	background: url(../images/icon-uni-16/icons-uni-16.png) left -946px no-repeat;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    transition: opacity 1s;
+	-moz-transition: opacity 1s;
+	-webkit-transition: opacity 1s
+}
+#jsn-clipboard-button {
+	padding: 3px 8px;
+	display: inline-block;
+	border: 1px solid #999999;
+	background: url(../images/backgrounds/bg-button.png) left center repeat-x;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+.jsn-clipboard-coppied {
+	opacity: 1;
+	filter: alpha(opacity=100);
+}
+/* ============================== SHOWLIST ============================== */
+.jsn-showlist-settings {
+	margin-top: 5px;
+}
+table.adminlist td.list-order p {
+	width: 90px;
+}
+table.adminlist td.list-order p span {
+	float: left;
+	width: 20px;
+	background-repeat: no-repeat;
+}
+#jsn-no-showcase,
+#jsn-no-showlist,
+#jsn-showlist-flex {
+	height: 1%;
+	margin: 15px 5px 10px 5px;
+}
+table.admintable .showlist-input {
+	width: 70%;
+	float: left;
+}
+table.admintable .button2-left {
+	margin: 0 0 0 5px;
+}
+#wrap-aut-article,
+#wrap-btt-module,
+#wrap-btt-article,
+#wrap-btt-image,
+#wrap-seo-article,
+#wrap-seo-module {
+	margin-top: 7px;
+}
+#jsn-flex-control-button {
+	text-align: right;
+}
+#jsn-flex-control-button a {
+	color: #000;
+	border: none;
+	font-size: 12px;
+	cursor: pointer;
+	font-weight: bold;
+	text-decoration:none;
+}
+#jsn-flex-control-button a.disabled {
+	color: #666;
+	cursor: default;
+	font-weight: normal;
+}
+#jsn-flex-control-button .jsn-panel-increase {
+	padding-left: 18px;
+	background: url(../images/icon-uni-16/icons-uni-16.png) left -772px no-repeat;
+}
+#jsn-flex-control-button .jsn-panel-decrease {
+	padding-right: 16px;
+	background: url(../images/icon-uni-16/icons-uni-16.png) right -687px no-repeat;
+}
+#jsn-no-showlist {
+	border: 1px solid #CCC;
+	background-color: #FFF;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+}
+#jsn-no-showlist .jsn-showlist-empty-warning {
+	width: 500px;
+	color: #D3D3D3;
+	font-size: 32px;
+	font-weight: bold;
+	padding-top: 90px;
+	margin: 105px auto;
+	text-align: center;
+	background: url(../images/icon-showlist-empty.png) center top no-repeat;
+}
+#jsn-no-showlist .jsn-showlist-empty-warning .jsn-button {
+	margin-top: 10px;
+}
+.jsn-showlist-edition {
+	font-size: 12px;
+	font-weight: bold;
+}
+/* =============== SHOWLIST - SELECT SOURCE =============== */
+.jsn-showlist-source-slide,
+.jsn-showlist-source-slide .sliding-content {
+    position: relative;
+}
+.jsn-showlist-source-slide .sliding-content {
+	margin: 0 40px;
+}
+.jsn-showlist-source-slide .jsn-item {
+	float: left;
+}
+.jsn-showlist-source-slide .jsn-item-container:hover {
+	background-color: #EFEFEF;
+}
+.jsn-showlist-source-slide .jsn-item-inner {
+    width: 237px;
+    height: 153px;
+    padding: 10px;
+ 	display: block;
+    margin: 12px auto;
+	position: relative;
+	border: 1px solid #EEE;
+    background-color: #FFF;
+    box-shadow: 0 0 11px #888;
+    -moz-box-shadow: 0 0 11px #888;
+    -webkit-box-shadow: 0 0 11px #888;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+	transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+}
+.jsn-showlist-source-slide .jsn-item-inner a:hover {
+	text-decoration: none;
+}
+.jsn-showlist-source-slide .jsn-item-inner .jsn-videosource-install-thumb {
+	width: 235px;
+	height: 150px;
+	display: inline-block;
+	border: 1px solid #ccc;
+	background: url(../images/ajax-loader-big.gif) center center no-repeat;
+}
+.jsn-showlist-source-slide .jsn-item-inner .jsn-showlist-videosource-miss-component .jsn-videosource-install-thumb {
+	background: transparent;
+}
+.jsn-showlist-source-slide .jsn-item .jsn-source-name {
+	font-size: 18px;
+    margin-top: 11px;
+    text-align: center;
+	position: relative;
+}
+.jsn-showlist-source-slide div.navigation-button {
+    right: 0;
+    top: 38%;
+    width: 100%;
+    position: absolute;
+}
+.jsn-showlist-source-slide .jsn-showlist-source-slide-arrow {
+    margin: 0;
+    width: 36px;
+    height: 36px;
+	z-index: 9999;
+	cursor: pointer;
+	display: inline-block;
+}
+.jsn-showlist-source-slide .jsn-showlist-source-slide-arrow.slide-arrow-pre {
+	float: left;
+	margin-left: 5px;
+}
+.jsn-showlist-source-slide .jsn-showlist-source-slide-arrow.slide-arrow-next {
+	float: right;
+	margin-right: 5px;
+}
+.jsn-showlist-source-slide .jsn-showlist-source-slide-arrow.slide-arrow-pre,
+.jsn-showlist-source-slide .jsn-showlist-source-slide-arrow.disabled-slide-arrow-pre {
+	background: url(../images/nav.png) -1px -2px no-repeat; 
+}
+.jsn-showlist-source-slide .jsn-showlist-source-slide-arrow.slide-arrow-pre:hover {
+	background-position: -120px -2px;
+}
+.jsn-showlist-source-slide .jsn-showlist-source-slide-arrow.slide-arrow-next,
+.jsn-showlist-source-slide .jsn-showlist-source-slide-arrow.disabled-slide-arrow-next {
+    background: url(../images/nav.png) -39px -2px no-repeat;
+}
+.jsn-showlist-source-slide .jsn-showlist-source-slide-arrow.slide-arrow-next:hover {
+	background-position: -79px -2px;
+}
+.jsn-showlist-source-slide .jsn-showlist-source-slide-arrow.disabled-slide-arrow-pre,
+.jsn-showlist-source-slide .jsn-showlist-source-slide-arrow.disabled-slide-arrow-next {
+	cursor: default;
+}
+/* =============== SHOWLIST - CHANGE SOURCE =============== */
+.jsn-showlist-images {
+	position: relative;
+}
+#jsn-change-video-source {
+    margin-top: -20px;
+    right: 40px;
+    width: 24px;
+    height: 24px;
+    display: block;
+    cursor: pointer;
+    position: absolute;
+	background: url(../images/icon-uni-24/icon-folder.png) left -1px no-repeat;
+}
+/* =============== SHOWLIST - CREATE PROFILE =============== */
+#jsn-showlist-profile-title {
+    color: #000000;
+	font-size: 18px;
+    margin: 0 0 10px;
+	font-weight: normal;
+    padding-bottom: 5px;
+	border-bottom: 1px solid #CCCCCC;
+}
+#jsn-showlist-profile {
+	padding: 5px 5px 10px 0;
+}
+#jsn-showlist-profile ul {
+	 padding: 0;
+	 margin: 5px;
+	 list-style: none;
+}
+#jsn-showlist-profile ul li {
+	margin: 2px 0;	
+}
+#jsn-showlist-profile hr {
+	margin: 0;
+}
+.jsn-new-profile-input,
+.jsn-available-profile-input {
+	width: 91%;
+}
+select.jsn-new-profile-input {
+	width: 93%;
+}
+#jsn-showlist-profile-button #submit-form {
+    width: 50px;
+    padding: 2px;
+    display: block;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 10px auto;
+	background: #F8CC46;
+    border: 2px solid #FF9A01;
+    text-transform: uppercase;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	box-shadow: 0 0 3px #333333;
+	-moz-box-shadow: 0 0 3px #333333;
+	-webkit-box-shadow: 0 0 3px #333333;
+}
+.jsn-require-star {
+	color: red;
+}
+/* =============== SHOWLIST - INSTALL / UPGRADE SOURCES =============== */
+@keyframes videosourceOverlayInstall {
+	from {
+		opacity: 0.1;
+		filter: alpha(opacity=10);
+	}
+	to {
+		opacity: 1;
+		filter: alpha(opacity=100);
+	}
+}
+@-moz-keyframes videosourceOverlayInstall /*Firefox*/
+{
+	from {
+		opacity: 0.1;
+		filter: alpha(opacity=10);
+	}
+	to {
+		opacity: 1;
+		filter: alpha(opacity=100);
+	}
+}
+@-webkit-keyframes videosourceOverlayInstall /*Safari and Chrome*/
+{
+	from {
+		opacity: 0.1;
+		filter: alpha(opacity=10);
+	}
+	to {
+		opacity: 1;
+		filter: alpha(opacity=100);
+	}
+}
+@keyframes hideThumbnailvideosource {
+	from {
+		opacity: 1;
+		filter: alpha(opacity=100);
+	}
+	to {
+		opacity: 0.1;
+		filter: alpha(opacity=10);
+	}
+}
+@-moz-keyframes hideThumbnailvideosource /*Firefox*/
+{
+	from {
+		opacity: 1;
+		filter: alpha(opacity=100);
+	}
+	to {
+		opacity: 0.1;
+		filter: alpha(opacity=10);
+	}
+}
+@-webkit-keyframes hideThumbnailvideosource /*Safari and Chrome*/
+{
+	from {
+		opacity: 1;
+		filter: alpha(opacity=100);
+	}
+	to {
+		opacity: 0.1;
+		filter: alpha(opacity=10);
+	}
+}
+@keyframes showThumbnailvideosource {
+	from {
+		opacity: 0.1;
+		filter: alpha(opacity=10);
+	}
+	to {
+		opacity: 1;
+		filter: alpha(opacity=100);
+	}
+}
+@-moz-keyframes showThumbnailvideosource /*Firefox*/
+{
+	from {
+		opacity: 0.1;
+		filter: alpha(opacity=10);
+	}
+	to {
+		opacity: 1;
+		filter: alpha(opacity=100);
+	}
+}
+@-webkit-keyframes showThumbnailvideosource /*Safari and Chrome*/
+{
+	from {
+		opacity: 0.1;
+		filter: alpha(opacity=10);
+	}
+	to {
+		opacity: 1;
+		filter: alpha(opacity=100);
+	}
+}
+.jsn-showlist-videosource-update > img,
+.jsn-showlist-videosource-install > img {
+	opacity: 1;
+	filter: alpha(opacity=100);
+	animation: showThumbnailvideosource 0.5s infinite;
+	-moz-animation: showThumbnailvideosource 0.5s infinite; /*Firefox*/
+	-webkit-animation: showThumbnailvideosource 0.5s infinite; /*Safari and Chrome*/
+	animation-iteration-count: 1;
+	-moz-animation-iteration-count: 1;
+	-webkit-animation-iteration-count: 1;
+}
+.jsn-showlist-videosource-update > img,
+.jsn-showlist-videosource-miss-component > img {
+	opacity: 0.1;
+	filter: alpha(opacity=10);
+	animation: hideThumbnailvideosource 0.5s infinite;
+	-moz-animation: hideThumbnailvideosource 0.5s infinite; /*Firefox*/
+	-webkit-animation: hideThumbnailvideosource 0.5s infinite; /*Safari and Chrome*/
+	animation-iteration-count: 1;
+	-moz-animation-iteration-count: 1;
+	-webkit-animation-iteration-count: 1;
+}
+.jsn-showlist-videosource-update .jsn-videosource-update-overlay-download,
+.jsn-showlist-videosource-update:hover .jsn-videosource-install-overlay-install {
+	display: block;
+	animation: videosourceOverlayInstall 1s infinite;
+	-moz-animation: videosourceOverlayInstall 1s infinite; /*Firefox*/
+	-webkit-animation: videosourceOverlayInstall 1s infinite; /*Safari and Chrome*/
+	animation-iteration-count: 1;
+	-moz-animation-iteration-count: 1;
+	-webkit-animation-iteration-count: 1;
+}
+.jsn-showlist-videosource-update {
+	display: block;
+	background-color: #fff;
+	border: 1px solid #CCCCCC;
+}
+.jsn-videosource-install-overlay {
+	width: 236px;
+	height: 153px;
+	display: none;
+	position: absolute;
+}
+.jsn-videosource-install-overlay-text {
+	margin: 0;
+	top: 30px;
+	left: 10px;
+	width: 217px;
+	padding: 10px;
+	color: #999999;
+	cursor: pointer;
+	font-size: 22px;
+    line-height: 27px;
+	font-weight: bold;
+	text-align: center;
+	position: absolute;
+}
+.jsn-videosource-install-overlay .jsn-videosource-install-overlay-text {
+	left: 0;
+	top: 86px;
+}
+.jsn-videosource-install-overlay-install {
+	background: url(../images/install-icon.png) center 33px no-repeat;
+}
+.jsn-videosource-install-overlay-download {
+	background: url(../images/download.png) center 33px no-repeat;
+}
+.jsn-videosource-install-update-source {
+    left: 3px;
+    top: 23px;
+    width: 90%;
+    padding: 10px;
+    color: #999999;
+	cursor: pointer;
+    font-size: 22px;
+    line-height: 27px;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+}
+.jsn-videosource-installing .jsn-videosource-install-update-source,
+.jsn-videosource-downloading .jsn-videosource-install-update-source {
+    display: none;
+}
+.jsn-videosource-install-download,
+.jsn-videosource-install-installing {
+	display: none;
+}
+.jsn-videosource-installing .jsn-videosource-install-overlay,
+.jsn-videosource-installing .jsn-videosource-install-installing, 
+.jsn-videosource-downloading .jsn-videosource-install-overlay,
+.jsn-videosource-downloading .jsn-videosource-install-download {
+	display: block;
+}
+.jsn-videosource-installing > img,
+.jsn-videosource-downloading > img {
+	opacity: 0.1;
+	filter: alpha(opacity=10);
+}
+.jsn-videosource-installing .jsn-videosource-install-videosource, 
+.jsn-videosource-downloading .jsn-videosource-install-videosource {
+	display: none;
+}
+.jsn-videosource-installing .jsn-videosource-install-overlay,
+.jsn-videosource-downloading .jsn-videosource-install-overlay {
+	background: url(../images/download.png) center 33px no-repeat;
+}
+.jsn-videosource-installing  .jsn-videosource-install-loading,
+.jsn-videosource-downloading  .jsn-videosource-install-loading {
+	display: block;
+    margin: 49px 106px;
+}
+.jsn-videosource-install-loading {
+	display: none;
+}
+.jsn-videosource-install-action {
+    box-shadow: 0 0 11px #333333;
+    -moz-box-shadow: 0 0 11px #333333;
+    -webkit-box-shadow: 0 0 11px #333333;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+}
+.jsn-showlist-videosource-miss-component .jsn-videosource-install-overlay {
+	display: block;
+}
+.jsn-showlist-videosource-miss-component .jsn-videosource-install-videosource {
+	display: none;
+}
+.jsn-videosource-install-download span {
+	display: none;
+	font-size: 16px;
+}
+/* =============== SHOWLIST - INSTALL SOURCES =============== */
+#jsn-showlist-install-sources-verify {
+	overflow: hidden;
+	position: relative;
+}
+#jsn-showlist-install-sources-verify h3.jsn-element-heading {
+    font-size: 18px;
+    margin: 0 0 10px;
+    font-weight: normal;
+	padding-bottom: 5px;
+    border-bottom: 1px solid #CCCCCC;
+}
+#jsn-showlist-install-sources-verify input,
+#jsn-showlist-install-sources-verify select {
+	padding: 3px;
+	border: 1px solid #B9B9B9;
+	font: 12px Arial, Helvetica, sans-serif;
+}
+#jsn-showlist-select-profile-picasa {
+	margin-bottom: 10px;
+}
+#jsn-showlist-select-profile-picasa select {
+	width: 100%;
+}
+.jsn-related-products-info{
+	border-bottom: 1px solid #CCCCCC;
+    margin: 0 0 15px;
+    padding: 0 0 20px;
+}
+.jsn-related-products-info ul{
+	list-style: disc inside none;
+	margin: 0 0 0 5px;
+}
+.jsn-related-products-info ul li.jsn-related-product{
+	padding: 5px 0 0 15px;
+}
+/* ============================== SHOW CASE ============================== */
+.jsn-showcase-settings {
+	margin-top: 5px;
+}
+.jsn-icon-view-color {
+	float: left;
+	width: 10px;
+	height: 10px;
+	margin: 2px;
+	border: 1px solid #333333;
+}
+/* =============== SHOWCASE - GENERAL TABS =============== */
+#general_background_color,
+td.showcase-input-field a {
+	display: inline-block;
+}
+#general_background_color:hover,
+td.showcase-input-field a:hover {
+	text-decoration: none;
+}
+td.showcase-input-field input {
+	float: left;
+	margin-right: 5px;
+	background-color: #ECE9D8;
+}
+span.color-selection:hover {
+	text-decoration: underline;
+}
+/* =============== SHOWCASE - SELECT THEMES =============== */
+#jsn-install-theme h3 {
+	color: #000;
+	font-size: 18px;
+	margin: 0 0 10px 0;
+	font-weight: normal;
+	border-bottom: 1px solid #CCCCCC;
+}
+#jsn-showcase-theme-wrapper {
+	margin-top: 5px;
+}
+/* =============== SHOWCASE - INSTALL THEMES =============== */
+#jsn-showcase-install-themes-verify h3.jsn-element-heading {
+    font-size: 18px;
+	margin: 0 0 10px;
+    font-weight: normal;
+	padding-bottom: 5px;
+    border-bottom: 1px solid #CCCCCC;
+}
+/* ============================== CONFIGURATION & MAINTENANCE ============================== */
+#jsn-videoshow-configuration-maintenance {
+	font-size: 12px;
+	overflow: hidden;
+	position: relative;
+	border: 1px solid #CCC;
+	background-color: #FFF;
+}
+#jsn-videoshow-configuration-maintenance_inner,
+#jsn-videoshow-configuration-maintenance_inner1 {
+	width: 100%;
+	position: relative;
+}
+#jsn-videoshow-configuration-maintenance_inner {
+	right: 73%;
+	background: #F6F6F6 url(../images/backgrounds/bg-main-navigation.png) right top repeat-y;
+}
+#jsn-videoshow-configuration-maintenance_inner1 {
+	left: 73%;
+}
+#jsn-main-content-container {
+	width: 73%;
+	float: left;
+}
+#jsn-main-content {
+	padding: 15px;
+}
+#jsn-main-content .jsn-button-container {
+	margin: 15px 0 10px 0;
+}
+#jsn-main-content .item-title,
+#jsn-main-content .big-item-title {
+	color: #666;
+	font-weight: bold;
+}
+#jsn-main-content .big-item-title {
+	font-size: 14px;
+}
+.jsn-maintenance-message {
+	display: none;
+	color: #FF0000;
+	font-size: 12px;
+	margin-left: 5px;
+	font-weight: normal;
+}
+#jsn-span-unsuccessful-installing-sampledata-message,
+#jsn-span-unsuccessful-downloading-sampledata-message {
+	display: none;
+	color: #CC0000;
+}
+/* =============== CONFIGURATION & MAINTENANCE - MAIN NAVIGATION =============== */
+#jsn-videoshow-configuration-maintenance #jsn-main-navigation {
+	width: 27%;
+	float: left;
+}
+#jsn-videoshow-configuration-maintenance #jsn-main-navigation h3.jsn-element-heading {
+	font-size: 14px;
+	padding: 5px 7px;
+	border-radius: 0;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+}
+#jsn-videoshow-configuration-maintenance #jsn-main-navigation ul.jsn-navigation-item {
+	margin: 10px 0;
+	list-style-type: none;
+}
+#jsn-videoshow-configuration-maintenance #jsn-main-navigation ul.jsn-navigation-item li {
+	margin: 0;
+}
+#jsn-videoshow-configuration-maintenance #jsn-main-navigation ul.jsn-navigation-item #jsn-active-item {
+	width: 100%;
+	display: block;
+	background-color: #FFF;
+	border-right: 1px solid #FFF;
+	border-top: 1px solid #D4D4D4;
+	border-bottom: 1px solid #D4D4D4;
+}
+#jsn-videoshow-configuration-maintenance #jsn-main-navigation ul.jsn-navigation-item li a {
+	color: #797B7F;
+	display: block;
+	padding: 6px 8px;
+	font-weight: bold;
+	transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+}
+#jsn-videoshow-configuration-maintenance #jsn-main-navigation ul.jsn-navigation-item li a:hover {
+	color: #000000;
+	text-decoration: none;
+	background-color: #E4E4E4;
+}
+#jsn-videoshow-configuration-maintenance #jsn-main-navigation ul.jsn-navigation-item #jsn-active-item a,
+#jsn-videoshow-configuration-maintenance #jsn-main-navigation ul.jsn-navigation-item #jsn-active-item a:hover {
+	color: #000;
+	background-color: #FFF;
+}
+#jsn-videoshow-configuration-maintenance #jsn-main-navigation ul.jsn-navigation-item li a span {
+	display: block;
+	line-height: 30px;
+	padding-left: 40px;
+	background-image: url(../images/icons-uni-32.png);
+	background-repeat: no-repeat;
+}
+.icon-configs {
+	background-position: left top;
+}
+.icon-msgs {
+	background-position: left -30px;
+}
+.icon-langs {
+	background-position: left -60px;
+}
+.icon-sampledata {
+	background-position: left -90px;
+}
+.icon-backup {
+	background-position: left -120px;
+}
+.icon-profile {
+	background-position: left -150px;
+}
+.icon-themes {
+	background-position: left -180px;
+}
+#jsn-active-item .icon-configs {
+	background-position: left -210px;
+}
+#jsn-active-item .icon-msgs {
+	background-position: left -240px;
+}
+#jsn-active-item .icon-langs {
+	background-position: left -270px;
+}
+#jsn-active-item .icon-sampledata {
+	background-position: left -300px;
+}
+#jsn-active-item .icon-backup {
+	background-position: left -330px;
+}
+#jsn-active-item .icon-profile {
+	background-position: left -360px;
+}
+#jsn-active-item .icon-themes {
+	background-position: left -390px;
+}
+/* =============== CONFIGURATION - GLOBAL PARAMETERS =============== */
+#jsn-configuration {
+	width: 550px;
+	margin: 0 auto;
+	padding: 30px 0;
+}
+#jsn-configuration form table {
+	padding: 5px;
+	border: 1px solid #CCCCCC;
+}
+/* =============== CONFIGURATION - MESSAGES =============== */
+#jsn-messages div.jsn-message-refresh {
+	font-weight: bold;
+	padding-bottom: 5px;
+}
+#jsn-messages div.jsn-message-refresh span {
+	float: right;
+}
+/* =============== CONFIGURATION - LANGUAGES =============== */
+#jsn-languages {
+	width: 550px;
+	padding: 10px;
+	margin: 30px auto 0 auto;
+	border: 1px solid #CCCCCC;
+}
+#jsn-languages .jsn-language-item {
+	height: 45px;
+	padding: 3px 0 3px 40px;
+	background: url(../images/icon-uni-24/icons-flag-24.png) 5px -460px no-repeat;
+}
+#jsn-languages .jsn-language-item label {
+	margin: 0;
+	display: block;
+}
+#jsn-languages div.en-GB {
+	background-position: 5px 10px;
+}
+#jsn-languages div.de-DE {
+	background-position: 5px -64px;
+}
+#jsn-languages div.pl-PL {
+	background-position: 5px -139px;
+}
+#jsn-languages div.fr-FR {
+	background-position: 5px -222px;
+}
+#jsn-languages div.nl-NL {
+	background-position: 5px -300px;
+}
+#jsn-languages div.pt-PT {
+	background-position: 5px -378px;
+}
+#jsn-languages div.it-IT {
+	background-position: 5px -421px;
+}
+#jsn-languages .ins-lang-error {
+	color: #CC0000;
+}
+#jsn-languages .ins-lang-installed {
+	color: #339900;
+}
+#jsn-languages .link-translate-lang {
+	text-decoration: underline;
+}
+/* =============== MAINTENANCE - DATA =============== */
+#jsn-data .jsn-icon {
+    width: 16px;
+    height: 16px;
+	margin-left: 5px;
+}
+#jsn-data .jsn-icon-failed {
+    background: url(../images/icon-uni-16/icons-uni-16.png) left -860px no-repeat;
+}
+#jsn-data .jsn-icon-check {
+	background: url(../images/icon-uni-16/icons-uni-16.png) left -946px no-repeat;
+}
+#jsn-data .jsn-icon-warning {
+    background: url(../images/icon-uni-16/icons-uni-16.png) left -1032px no-repeat;
+}
+#jsn-data .jsn-icon-loading {
+	background: url(../images/ajax-loader-circle.gif) left center no-repeat;
+}
+/* ----- SAMPLE DATA INSTALLATION ----- */
+#jsn-sample-data .text-alert {
+	font-size: 13px;
+	margin-bottom: 1em;
+}
+#jsn-sample-data .text-alert ul {
+	margin: 3px 0;
+	padding-left: 25px;
+}
+#jsn-sample-data .text-alert ul li {
+	margin: 3px 0;
+}
+#jsn-start-installing-sampledata .jsn-button-container {
+	margin-top: 0;
+}
+#jsn-installing-sampledata ul {
+	padding-left: 29px;
+}
+#jsn-installing-sampledata ul li {
+	margin: 10px 0;
+}
+#jsn-sampledata-warnings,
+#jsn-installing-sampledata,
+#jsn-installing-sampledata-successfully,
+#jsn-install-sample-data-package-title,
+#jsn-installing-sampledata-unsuccessfully {
+	display: none;
+}
+#jsn-installing-sampledata-successfully h3 {
+	color: #009900;
+	font-size: 16px;
+}
+#jsn-sampledata-warnings {
+	padding-left: 30px;
+}
+#jsn-sampledata-warnings ul {
+	margin: 0;
+	list-style-position: inside;
+}
+/* ============================== SAMPLE DATA ============================== */
+#jsn-sample-data .jsn-sampledata-warnings-text #jsn-sampledata-ul-warnings li {
+	margin: 10px 0;
+}
+#jsn-sample-data .jsn-install-processing .jsn-sampledata-install-status {
+	display: none;
+}
+#jsn-sample-data .jsn-sampledata-installation-processing img {
+	margin-left: 5px;
+	vertical-align: top;
+}
+#jsn-sample-data .jsn-sampledata-installation-processing .jsn-sampledata-install-status-text {
+    color: #5ACE02;
+    display: inline;
+	padding-left: 5px;
+}
+#jsn-sample-data .jsn-sampledata-installation-processing {
+    display: inline;
+}
+#jsn-sample-data div.jsn-sampledata-installation-wait img,
+#jsn-sample-data div.jsn-sampledata-installation-wait .jsn-sampledata-install-status,
+#jsn-sample-data div.jsn-sampledata-installation-wait .jsn-sampledata-install-status-text,
+#jsn-sample-data div.jsn-sampledata-installation-processing .jsn-sampledata-install-status,
+#jsn-sample-data div.jsn-sampledata-installation-success img, 
+#jsn-sample-data div.jsn-sampledata-installation-success .jsn-sampledata-install-status-text,
+#jsn-sample-data div.jsn-sampledata-installation-failure img, 
+#jsn-sample-data div.jsn-sampledata-installation-failure .jsn-sampledata-install-status-text {
+    display: none;
+}
+#jsn-sample-data div.jsn-sampledata-installation-success .jsn-sampledata-install-status,
+#jsn-sample-data div.jsn-sampledata-installation-failure .jsn-sampledata-install-status {
+	display: inline-block;
+}
+#jsn-sample-data div.jsn-sampledata-installation-failure .jsn-sampledata-install-status {
+	background-position: left -860px;
+}
+#jsn-sample-data div.jsn-sampledata-installation-wait span.jsn-sampledata-installation-requried-elements,
+#jsn-sample-data div.jsn-sampledata-installation-failure span.jsn-sampledata-installation-requried-elements {
+	color: #CC0000;
+}
+#jsn-sample-data span.jsn-install-process-missing-element {
+	color: #CC0000;
+	margin-bottom: 5px;
+	display: inline-block;
+}
+#jsn-sample-data .jsn-install-process-missing-wapper ul {
+	margin: 0;
+    padding: 0 0 0 8px;
+}
+#jsn-sample-data .jsn-install-process-missing-wapper ul li {
+	margin: 0;
+}
+#jsn-sample-data .jsn-install-process-missing-wapper {
+	padding-left: 12px;
+}
+/* =============== SAMPLE DATA - RESTORE =============== */
+#jsn-data-restore ul {
+	margin: 0;
+	padding-left: 20px;
+}
+#jsn-data-restore ul li {
+	margin: 5px;
+}
+#jsn-restore-install-required-warning {
+	color: red;
+}
+#jsn-restore-install-required-warning #jsn-restore-list-required-install {
+	padding: 0;
+	list-style-type: disc;
+	list-style-position: inside;
+}
+.jsn-restore-icon-process {
+    top: 4px;
+    right: -5px;
+	display: none;
+    position: relative;
+}
+.jsn-restore-install-required {
+	display: none;
+}
+.jsn-restore-installing #jsn-restore-data,
+.jsn-restore-installing .jsn-restore-install-required,
+.jsn-restore-installing-source #jsn-restore-required-sources .jsn-restore-icon-process,
+.jsn-restore-installing-theme #jsn-restore-required-themes .jsn-restore-icon-process {
+	display: inline-block;
+}
+.jsn-restore-installing-source #jsn-restore-required-sources .jsn-icon,
+.jsn-restore-installing-theme #jsn-restore-required-themes .jsn-icon {
+	display: none;
+}
+.jsn-restore-installing-failure > span.jsn-restore-icon-failure {
+	display: inline-block;
+}
+.jsn-restore-installing-failure > .jsn-restore-warning,
+.jsn-restore-installing-failure #jsn-restore-data{
+	display: none;
+}
+.jsn-restore-installing #jsn-restore-install-required-warning {
+	display: none;
+}
+.jsn-restore-change-text {
+	color: #5ACE02;
+	padding-left: 10px;
+}
+.jsn-restore-icon-success,
+.jsn-restore-icon-failure,
+.jsn-restore-installing-success .jsn-restore-icon-failure {
+    display: inline-block;
+}
+.jsn-restore-icon-success,
+#jsn-data .jsn-restore-installing-success .jsn-icon{
+	background: url("../images/icon-uni-16/icons-uni-16.png") no-repeat scroll left -946px transparent;
+}
+.jsn-restore-icon-failure {
+	background: url(../images/icon-uni-16/icons-uni-16.png) left -860px no-repeat;
+}
+.jsn-restore-installing .jsn-restore-icon-failure {
+	display: none;
+}
+.jsn-restore-installing-success .jsn-restore-button-cancel {
+	display: none;
+} 
+.jsn-restore-installing-success .jsn-restore-button-finish {
+	display: inline-block;
+} 
+.jsn-restore-button-finish {
+	display: none;
+}
+#jsn-restore-extract-failure {
+	color: red;
+	padding-left: 16px;
+}
+#jsn-restore-database-success h3 {
+	color: #009900;
+	font-size: 16px;
+}
+#jsn-restore-database-success,
+.jsn-restore-databse-failure .jsn-restore-warning,
+.jsn-restore-installing-success .jsn-restore-warning{
+	display: none;
+}
+.jsn-restore-installing-source-success #jsn-restore-required-sources #jsn-restore-source-change-text,
+.jsn-restore-installing-source-success #jsn-restore-required-sources .jsn-restore-icon-process,
+.jsn-restore-installing-theme-success #jsn-restore-required-sources #jsn-restore-source-change-text,
+.jsn-restore-installing-theme-success #jsn-restore-required-sources .jsn-restore-icon-process{
+	display: none;
+}
+.jsn-restore-installing-source-success #jsn-restore-required-sources .jsn-icon-check,
+.jsn-restore-installing-theme-success #jsn-restore-required-sources .jsn-icon-check{
+	display: inline-block;
+}
+/* =============== MAINTENANCE - DATA BACKUP / RESTORE =============== */
+#jsn-data {
+	width: 660px;
+	margin: 30px auto;
+}
+#jsn-data input {
+	margin: 0;
+	float: none;
+}
+#jsn-data dl {
+	margin: 0 0 -1px 0;
+}
+#jsn-data dl dt {
+	margin-bottom: 0;
+}
+#jsn-data dl dt.open {
+	font-weight: bold;
+	background-color: #FFF;
+	border-bottom-color: #FFF;
+}
+#jsn-data dd {
+	height: 1%;
+	width: auto;
+	position: static;
+}
+#jsn-data #jsn-image-panel,
+#jsn-data #jsn-data-maintenance {
+	*margin-left: -40px;
+}
+#jsn-data .jsn-accordion-pane {
+	position: relative;
+}
+#jsn-data #jsn-data-backup,
+#jsn-data #jsn-data-restore {
+	margin: 10px 5px 0 5px;
+}
+#jsn-data p {
+	margin: 5px 0;
+}
+#jsn-data p label {
+	top: -1px;
+	margin: 0;
+	float: none;
+	display: inline;
+	font-size: 12px;
+	padding-left: 3px;
+	position: relative;
+}
+#jsn-data #jsn-data-backup p #filename {
+	width: 85%;
+	margin: 5px 0;
+}
+.jsn-data-maintenance-hr {
+	margin: 1em 0.5em;
+}
+/* ----- DATA MAINTENANCE ----- */
+#jsn-data-maintenance h3 {
+	color: #000;
+	font-size: 16px;
+}
+#jsn-data-maintenance #jsn-creating-thumbnail,
+#jsn-data-maintenance #jsn-creat-thumbnail-successful,
+#jsn-data-maintenance #jsn-creat-thumbnail-unsuccessful {
+	display: none;
+}
+/* =============== MAINTENANCE - IMAGE SOURCE PROFILE =============== */
+.actionprofile a {
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	vertical-align: inherit;
+}
+.action-edit {
+	background: url(../images/icon-uni-16/icons-uni-16.png) left top no-repeat;
+}
+.action-edit:hover {
+	background: url(../images/icon-uni-16/icons-uni-16.png) left -86px no-repeat;
+}
+.action-delete {
+	background: url(../images/icon-uni-16/icons-uni-16.png) left -258px no-repeat;
+}
+.action-delete:hover {
+	background: url(../images/icon-uni-16/icons-uni-16.png) left -344px no-repeat
+}
+/* ----- IMAGE SOURCE PROFILE - DETAILS ----- */
+#jsn-image-source-profile-details {
+	font-size: 12px;
+	line-height: 1.5;
+}
+#jsn-image-source-profile-details ul {
+	padding-left: 15px;
+	margin: 6px 0 6px 5px;
+}
+#jsn-image-source-profile-details h3.jsn-element-heading {
+	font-size: 18px;
+	margin: 0 0 10px 0;
+	font-weight: normal;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #CCC;
+}
+#jsn-image-source-profile-details div.button {
+	margin-top: 14px;
+	background: none;
+	text-align: center;
+}
+#jsn-image-source-profile-details div.button button {
+	margin: 0 3px;
+	min-width: 50px;
+}
+#jsn-image-source-profile-details .admintable,
+#jsn-image-source-profile-details .admintable input {
+	width: 99%;
+	padding: 3px;
+}
+#jsn-image-source-profiles .jsn-image-source-profile-title {
+	padding-left: 28px;
+	background: url(../images/arrow.png) 10px 9px no-repeat;
+}
+.jsn-image-source-close-profile {
+	display: none;	
+}
+.jsn-image-source-title-close span.jsn-image-source-close-profile {
+	display: inline;
+}
+.jsn-image-source-title-close span.jsn-image-source-open-profile {
+	display: none;
+}
+#jsn-image-source-profiles .jsn-image-source-table-td-profiles {
+	padding: 0;
+	border: none;
+}
+#jsn-image-source-profiles .jsn-image-source-table-profiles {
+	border: none;
+}
+.jsn-image-source-profile-close {
+	display: none;
+}
+a.jsn-image-source-title:link,
+.jsn-image-source-profile-title a:link {
+	font-weight: bold;	
+	text-decoration: underline;
+}
+.jsn-image-source-seperator {
+	color: #ccc;
+	padding: 0 3px;
+}
+/* =============== MAINTENANCE - THEMES MANAGER =============== */
+#jsn-system-message {
+	color: #464646;
+	padding: 10px;
+	text-align: center;
+	margin-bottom: 10px;
+	background-color: #EFE7B8;
+	border: 2px solid #F0DC7E;
+}
+#jsn-system-red-message {
+	color: #CC0000;
+	padding: 10px 0;
+	font-size: 12px;
+	font-weight: bold;
+	position: relative;
+	margin-bottom: 10px;
+	background-color: #E6C0C0;
+	border-top: 3px solid #DE7A7B;
+	border-bottom: 3px solid #DE7A7B;
+}
+#system-message dd.notice ul {
+	background-position: 4px center;
+}
+#jsn-system-message .jsn-span-delete-messages {
+	float: right;
+}
+#jsn-system-message .jsn-span-title-messages {
+	margin: 0;
+	font-size: 14px;
+}
+#jsn-system-message .jsn-span-delete-messages .jsn-link-delete-messages {
+	width: 24px;
+	height: 24px;
+	display: block;
+	background: url(../images/icon-uni-24/icon-close-message.png) center center no-repeat;
+}
+.jsn-loading-bg {
+	width: 100%;
+	height: 100%;
+	background: #fff url(../images/ajax-loader-m.gif) center center no-repeat;
+}
+/* ============================== HELP & SUPPORT ============================== */
+#jsn-videoshow-help {
+	color: #666;
+	font-size: 12px;
+}
+#jsn-videoshow-help .jsn-column {
+	float: left;
+	width: 33.3%;
+}
+#jsn-videoshow-help div.padding {
+	padding: 0 8px;
+}
+#jsn-videoshow-help div.first-col div.padding {
+	padding-left: 0;
+}
+#jsn-videoshow-help div.last-col div.padding {
+	padding-right: 0;
+}
+#jsn-videoshow-help .jsn-dgrey-heading-style {
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+}
+#jsn-videoshow-help .jsn-element-heading {
+	font-size: 14px;
+	padding: 5px 7px;
+}
+#jsn-videoshow-help .jsn-help-item {
+	border-top: none;
+	padding: 15px 10px;
+	background-color: #FFF;
+	border: 1px solid #CCC;
+}
+/* ============================== ABOUT ============================== */
+#jsn-videoshow-about {
+	color: #666;
+	width: 600px;
+	font-size: 12px;
+	margin: 50px auto;
+}
+#jsn-videoshow-about h2 {
+	margin: 0;
+	font-size: 20px;
+}
+#jsn-videoshow-about div.jsn-product-cta {
+	background-color: #e9e9e9;
+	border: 1px solid #CCC;
+	padding: 15px;
+	margin-bottom: 20px;
+}
+#jsn-videoshow-about div.jsn-videoshow-details > div {
+	margin-bottom: 1.5em;
+}
+#jsn-videoshow-about div.jsn-videoshow-details h3 {
+	color: #000;
+	font-size: 18px;
+	padding-top: 1em;
+	margin: 0 0 0.6em 0;
+}
+#jsn-videoshow-about div.jsn-videoshow-details h4 {
+	font-size: 15px;
+	margin: 0 0 0.5em;
+}
+#jsn-videoshow-about div.jsn-videoshow-details hr {
+	margin: 0;
+}
+#jsn-videoshow-about div.jsn-videoshow-details ul {
+	margin: 3px 0;
+	padding-left: 25px;
+}
+#jsn-videoshow-about div.jsn-videoshow-details .pro-alert {
+	color: #000000
+	padding: 0.5em 1em 0.5em 55px;
+	border-top: 2px solid #FEABAB;
+	border-bottom: 2px solid #FEABAB;
+	background: #FFDFDF url(../images/icon-pro.png) 15px 1.4em no-repeat;
+}
+#jsn-videoshow-intro {
+	padding: 15px;
+	background-color: #FFF;
+	border: 1px solid #CCCCCC;
+}
+#jsn-videoshow-intro h3 {
+	font-size: 15px;
+}
+#jsn-videoshow-intro table {
+	margin: 0;
+	padding: 0;
+}
+#jsn-videoshow-intro table dl {
+	margin-bottom: 1em;
+}
+#jsn-videoshow-intro table dt {
+	width: 15%;
+	margin: 0;
+	color: #666;
+	float: left;
+	padding: 3px;
+	font-weight: bold;
+}
+#jsn-videoshow-intro table dd {
+	padding: 3px;
+	margin-left: 65px;
+}
+#jsn-videoshow-intro span.jsn-version-checking {
+	color: #666;
+}
+span.jsn-outdated-version, 
+span.jsn-global-outdated-version,
+#jsn-videoshow-intro span.jsn-connection-fail,
+#jsn-videoshow-intro span.jsn-outdated-version {
+	color: #CC0000;
+}
+#jsn-videoshow-intro span.jsn-outdated-version .jsn-template-log {
+	color: #000;
+}
+#jsn-videoshow-intro span.jsn-outdated-version .jsn-newer-version {
+	font-weight: bold;
+}
+#jsn-videoshow-intro span.jsn-latest-version {
+	color: #009900;
+}
+p.jsn-message-upgrade {
+	margin: 0 !important;
+}
+div.jsn-body hr {
+	height: 1px;
+	border: none;
+	background-color: #E6E6E6;
+}
+.icon-twitter {
+	padding-left: 26px;
+	display: inline-block;
+	background: url(../images/icon-uni-24/icon-twitter.png) left center no-repeat;
+}
+.icon-vote-jed {
+	padding-left: 26px;
+	display: inline-block;
+	background: url(../images/icon-uni-24/icon-vote.png) left center no-repeat;
+}
+.icon-upgrade-to-pro {
+	padding-left: 35px;
+	display: inline-block;
+	background: url(../images/icon-uni-24/icon-pro.png) left center no-repeat;
+}
+.link-action {
+	color: #025A8D;
+	cursor: pointer;
+	font-weight: bold;
+}
+.jsn-product-thumbnail {
+	padding: 2px 10px 10px 0;	
+}
+#jsn-videoshow-intro hr {
+	margin: 0.5em 0;
+}
+
+/* ============================== INSTALLATION ============================== */
+.jsn-installation-container {
+	width: 615px;
+	padding: 25px;
+	font-size: 12px;
+	margin: 39px auto;
+	background-color: #FFF;
+	border: 1px solid #D5D5D5;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	box-shadow: 0 0 7px #999;
+	-moz-box-shadow: 0 0 7px #999;
+	-webkit-box-shadow: 0 0 7px #999;
+}
+.jsn-installation-step {
+	color: #B9B9B9;
+	font-size: 16px;
+	margin-top: 12px;
+	padding: 7px 12px;
+	font-weight: bold;
+	background: #F9F9F9;
+	border: 1px solid #D5D5D5;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+.jsn-installation-step.first {
+	margin-top: 0;
+}
+.jsn-installation-step.enabled {
+	color: #FFCF40;
+	font-weight: bold;
+	margin-bottom: 12px;
+	border: 2px solid #333333;
+	text-shadow: 0 1px 3px #333333;
+	background: #6A6A6A url(../images/backgrounds/bg-dgrey-heading.png) left bottom repeat-x;
+	box-shadow: 0 2px 5px 0 #666666;
+	-moz-box-shadow: 0 2px 5px 0 #666666;
+	-webkit-box-shadow: 0 2px 5px 0 #666666;
+}
+.jsn-installation-finish {
+	padding: 0 10px;
+}
+.jsn-installation-finish table {
+	margin: 0.35em 0 0.8em 0;
+}
+.jsn-installation-finish table td {
+	padding: 3px;
+}
+.jsn-installation-finish .jsn-button-container {
+	margin: 10px 0 10px 0;
+}
+.jsn-installation-container h2{
+	margin: 0;
+}
+.jsn-installation-finish ul{
+	list-style: inside;
+}
+.jsn-installation-finish ul li{
+	margin: 12px 0;
+}
+/* =============== INSTALLATION - RESULT =============== */
+.jsn-installation-success {
+	line-height: 24px;
+	padding-left: 30px;
+	background: url(../images/icon-uni-24/icon-check-success-install.png) left top no-repeat;
+}
+.jsn-installation-failure {
+	color: red;
+	margin: 0 0 0 13px;
+}
+#jsn-installation-failure-elements {
+	margin: 0 0 0 45px;
+}
+#jsn-installation-alert {
+	padding-left: 35px;
+	background: url(../images/icon-uni-24/icon-warning.png) left center no-repeat;
+}
+.jsn-installation-text-success {
+	width: 16px;
+	height: 13px;
+	margin-left: 5px;
+	display: inline-block;
+	background: url(../images/icon-uni-16/icons-uni-16.png) left -946px no-repeat;
+}
+.jsn-installation-error {
+	color: #CC0000;
+	font-weight: bold;
+}
+.jsn-installation-finish .text-alert {
+	margin: 10px 0 0 0;
+}
+.jsn-installation-finish .text-alert ul {
+	margin: 3px 0;
+	padding-left: 25px;
+}
+.jsn-installation-finish .text-alert ul li {
+	margin: 3px 0;
+}
+.jsn-install-processing {
+	display: inline;
+}
+.jsn-install-processing .jsn-installation-text-success {
+	display: none;
+}
+.jsn-install-processing p {
+	display: inline;
+}
+#jsn-install-process-theme {
+	display: none;
+}
+.jsn-install-processing {
+	color: #009900;
+}
+.jsn-install-processing img {
+    top: 4px;
+	position: relative;
+}
+div.jsn-install-success img,
+div.jsn-install-success p.jsn-install-process-text {
+	display: none;
+}
+div.jsn-install-success .jsn-installation-text-success {
+	display: inline-block;
+}
+div.jsn-install-failure p,
+div.jsn-install-failure img {
+	display: none;
+}
+div.jsn-install-failure .jsn-installation-text-success {
+    top: 3px;
+    height: 16px;
+    position: relative;
+    display: inline-block;
+	background: url(../images/icon-uni-16/icon-failure.png) left center no-repeat;
+}
+#jsn-install-login-form tr td {
+	padding: 5px 10px;
+}
+#jsn-install-login-form input {
+	width: 100%;
+	height: 20px;
+	border-color: #809db9;
+}
+#jsn-install-login-form .label {
+	padding-right: 10px;
+}
+#jsn-install-download-backup-file {
+    display: none;
+    border-top: 1px solid #CCCCCC;
+    padding: 0.6em 0.8em 0.6em 3.8em;
+	background: url(../images/icon-uni-16/icon-warning.png) 14px center no-repeat;
+}
+.jsn-installation-failure-icon {
+    top: 3px;
+    left: 5px;
+    width: 16px;
+    height: 16px;
+    position: relative;
+    display: inline-block;
+	background: url(../images/icon-uni-16/icon-failure.png) left center no-repeat;
+}
+.jsn-installation-successfull-message {
+    display: none;
+    margin: 20px 0;
+    padding: 17px 0 0;
+	border-top: 1px solid #CCCCCC;
+}
+.jsn-installation-success-label {
+	color: #009900;
+    display: block;
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+#jsn-installation-buttons,
+#jsn-installation-button-close,
+#jsn-installation-button-finish {
+	display: none;
+}
+#jsn-install-migrate-data,
+#jsn-install-themes {
+	display: none;
+}
+/*=============================== JSN MENU ====================================*/
+#toolbar.toolbar-list {
+    float: right;
+}
+#toolbar #submenu-box {
+	display: none;
+}
+#toolbar #jsn-menu {
+	float: left;
+	text-align: left;
+	padding: 1px 5px;
+	margin: 0 3px 0 0;
+}
+#toolbar #jsn-menu li {
+	padding: 0;
+	z-index: 1;
+	float: none;
+	height: auto;
+	display: block;
+	text-align: left;
+	position: relative;
+	list-style-type: none;
+}
+#toolbar #jsn-menu li a {
+	padding: 0;
+	float: none;
+	border: none;
+	display: block;
+	font-size: 12px;
+}
+#toolbar #jsn-menu li a.icon-menu,
+#toolbar #jsn-menu li a.icon-menu:hover {
+	margin: 0;
+	border: none;
+	cursor: pointer;
+	padding-top: 30px;
+	background: url("../images/icons-uni-32.png") no-repeat scroll center -359px transparent;
+}
+#toolbar #jsn-menu li a span {
+	width: auto;
+	height: auto;
+	display: block;
+}
+#toolbar #jsn-menu li ul {
+    margin: 0;
+    padding: 0;
+	left: -999em;
+	width: 173px;
+    position: absolute;
+	background-color: #fff;
+	border: 1px solid #CCCCCC;
+}
+#toolbar #jsn-menu li:hover ul {
+	right: 0;
+	left: auto;
+}
+#toolbar #jsn-menu ul li {
+	margin: 2px 4px;
+}
+#toolbar #jsn-menu ul li.first {
+	margin-top: 4px;
+}
+#toolbar #jsn-menu ul li.last {
+	margin-bottom: 4px;
+}
+#toolbar #jsn-menu ul li.separator {
+	margin-top: 3px;
+	border-top: 1px solid #CCC;
+	border-bottom: 1px solid #FFF;
+}
+#toolbar #jsn-menu ul li a {
+	color: #666;
+	margin: 0;
+	padding: 3px;
+	font-size: 11px;
+	position: static;
+	background: none;
+	text-shadow: none;
+}
+#toolbar #jsn-menu ul li a span {
+	height: 1%;
+}
+#toolbar #jsn-menu ul li a.icon-24 {
+	padding: 2px;
+	font-size: 12px;
+	font-weight: bold;
+}
+#toolbar #jsn-menu ul li a:hover {
+	color: #000;
+	background-color: #F6F6F6;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+#toolbar #jsn-menu ul li a.icon-24 span {
+	line-height: 24px;
+	padding-left: 28px;
+	background: url(../images/icon-uni-24/icons-menu.png) left top no-repeat;
+}
+#toolbar #jsn-menu ul li a.icon-launchpad span {
+	background-position: left top;
+}
+#toolbar #jsn-menu ul li a.icon-showlist span {
+	background-position: left -48px;
+}
+#toolbar #jsn-menu ul li a.icon-showcase span {
+	background-position: left -24px;
+}
+/* =============== JSN MENU - SUBMENU =============== */
+#toolbar #jsn-menu ul li.parent ul {
+	top: 0;
+	right: 4px;
+	width: 24px;
+	border: none;
+	left: -999em;
+	background: none;
+	margin-right: 4px;
+}
+#toolbar #jsn-menu ul li.parent:hover ul {
+	right: 0;
+	left: auto;
+}
+#toolbar #jsn-menu ul li ul li {
+	margin: 0;
+	display: block;
+}
+#toolbar #jsn-menu ul li ul li a {
+	padding: 0;
+	float: left;
+	border: none;
+}
+#toolbar #jsn-menu ul li ul li a.additem {
+	padding: 3px;
+	font-weight: bold;
+}
+/* =============== JSN MENU - LIST ITEMS =============== */
+#toolbar #jsn-menu ul li.parent:hover ul.jsn-list-items {
+	right: 0;
+	left: -190px;
+}
+#toolbar #jsn-menu ul li ul.jsn-list-items li {
+	margin: 3px 5px;
+}
+#toolbar #jsn-menu ul li.parent ul.jsn-list-items {
+	width: 190px;
+	background-color: #fff;
+    border: 1px solid #CCCCCC;
+}
+#toolbar #jsn-menu ul li ul.jsn-list-items li a {
+	float: none;
+	padding: 3px;
+	white-space: normal;
+}
+#toolbar #jsn-menu ul li ul.jsn-list-items li a:hover {
+	color: #000;
+	padding: 3px;
+	border: none;
+	background-color: #F6F6F6;
+}
+#toolbar #jsn-menu ul li ul.jsn-list-items div.separator {
+	border-bottom: 1px solid #CCCCCC;
+}
+#toolbar #jsn-menu ul.jsn-list-items li.jsn-list-menu-item {
+	padding: 3px;
+	font-weight: bold;
+}
+#toolbar #jsn-menu ul li a.icon-16 span {
+	line-height: 16px;
+	padding-left: 20px;
+	background: url(../images/icon-uni-16/icons-uni-16.png) left -430px no-repeat;
+}
+/*=============================== UPDATER ====================================*/
+.jsn-updater-container {
+	width: 615px;
+	padding: 25px;
+	font-size: 12px;
+	margin: 39px auto;
+	border: 1px solid #D5D5D5;
+	background-color: #FFFFFF;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	box-shadow: 0 0 7px #999999;
+	-moz-box-shadow: 0 0 7px #999999;
+	-webkit-box-shadow: 0 0 7px #999999;
+}
+.jsn-updater-link-cancel {
+	float: right;
+	margin: 3px 0;
+}
+a.jsn-updater-link-cancel:link {
+	text-decoration: underline;
+}
+.jsn-updater-container ul {
+	list-style: inside;
+}
+.jsn-updater-container ul li {
+	margin: 10px;
+}
+.jsn-updater-login {
+	margin: 17px 0;
+	padding: 10px 0;
+	border-top: 1px solid #ccc;
+}
+.jsn-updater-login-input {
+	width: 49%;
+	float: left;
+}
+.jsn-updater-login-input input {
+	height: 20px;
+    width: 220px;
+}
+.jsn-updater-success {
+    top: 2px;
+    left: 5px;
+    width: 16px;
+    height: 16px;
+    display: none;
+    position: relative;
+	background: url(../images/icon-uni-16/icons-uni-16.png) left -946px no-repeat;
+}
+.jsn-updater-failure {
+    top: 3px;
+    left: 3px;
+    width: 16px;
+    height: 16px;
+    display: none;
+    position: relative;
+	background: url(../images/icon-uni-16/icon-failure.png) left center no-repeat;
+}
+.jsn-updater-loading {
+	margin: 0 0 -2px 5px;
+}
+.jsn-updater-install,
+.jsn-updater-download {
+	display: none;
+	list-style: inside;
+}
+.jsn-onrequest-download .jsn-updater-download {
+	display: list-item;
+}
+.jsn-onsuccess-download .jsn-updater-download .jsn-updater-success {
+	display: inline-block;
+}
+.jsn-onsuccess-download .jsn-updater-download > img {
+	display: none;
+}
+.jsn-onsuccess-install-failure > img,
+.jsn-onsuccess-install-failure .jsn-updater-install > img,
+.jsn-onsuccess-download-failure > img,
+.jsn-onsuccess-download-failure .jsn-updater-download > img {
+	display: none;
+}
+.jsn-onsuccess-install-failure > .jsn-updater-failure,
+.jsn-onsuccess-download-failure > .jsn-updater-failure,
+.jsn-onsuccess-install-failure .jsn-updater-install .jsn-updater-failure,
+.jsn-onsuccess-download-failure .jsn-updater-download .jsn-updater-failure {
+	display: inline-block;
+}
+.jsn-onrequest-install .jsn-updater-install {
+	display: list-item;
+}
+.jsn-onsuccess-install .jsn-updater-install .jsn-updater-success {
+	display: inline-block;
+}
+.jsn-onsuccess-install .jsn-updater-install > img {
+	display: none;
+}
+.jsn-onsuccess-install > img,
+.jsn-onsuccess-install > div,
+.jsn-onsuccess-install > span {
+	display: none;
+}
+.jsn-onsuccess-install > span.jsn-updater-success {
+	display: inline-block;
+}
+.jsn-updater-process-message {
+	color: red;
+	padding-left: 13px;
+}
+#jsn-updater-button-cancel {
+	display: none;
+}
+.jsn-updater-cancel #jsn-updater-button-cancel {
+	display: inline-block;
+}
+.jsn-updater-cancel #jsn-updater-button-update {
+	display: none;
+}
+#jsn-updater-button-finish {
+	display: none;
+}
+#jsn-updater-successfully {
+    display: none;
+    margin: 18px 0;
+    padding: 14px 0 0;
+	border-top: 1px solid #CCCCCC;
+}
+.jsn-updater-successfull button {
+	display: none;
+}
+.jsn-updater-successfull #jsn-updater-button-finish {
+	display: inline-block;
+}
+.jsn-updater-processing-box ul {
+	margin-left: 10px;
+}
+/* ============================== FOOTER ============================== */
+p.jsn-footer {
+	margin: 8px 0 0 0;
+	text-align: center;
+}
+p.jsn-footer span.jsn-footer-item {
+	padding: 0 8px 0 5px;
+	border-right: 1px solid #CCC;
+}
+span.jsn-global-outdated-version {
+	padding: 0 5px 0 8px;
+	border-left: 1px solid #CCC;
+}
+p.jsn-footer span.item-end,
+p.jsn-footer span.item-checkversion {
+	border: none;
+	padding: 0 5px 0 5px;
+}
+p.jsn-footer span.jsn-footer-item a.link-item {
+	color: #757575;
+}
+p.jsn-footer a.last {
+	border-right: none;
+}
+p.jsn-footer span.jsn-footer-item a.link-pro {
+	color: #CC0000;
+	font-weight: bold;
+}
+.jsn-footer-free-info{
+	color: #757575;
+    display: block;
+    margin: 5px 0;
+}
+/* ============================== CHECK THUMB FOLDER ============================== */
+#jsn-checkthumb {
+    top: 0;
+    width: 250px;
+    height: 42px;
+    padding: 10px;
+    margin: 23% 40% 40%;
+    position: absolute;
+    background: #e4e4e4;
+	border: 1px solid #ccc;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+	box-shadow: 0 5px 7px #999;
+    -moz-box-shadow: 0 5px 7px #999;
+  	-webkit-box-shadow: 0 5px 7px #999;
+}
+#jsn-checkthumb-label {
+	margin: 5px 0 10px;
+}
+#jsn-checkthumb-count {
+	height: 3px;
+	border: 1px solid #999;
+}
+#jsn-checkthumb-progress-bar {
+	width: 0;
+	height: 100%;
+	background: #ffce3f;
+}
+/* ============================== INSTALL SHOWCASE THEME ============================== */
+@keyframes videoshowcaseThemeOverlayInstall {
+	from {
+		opacity: 0.1;
+		filter: alpha(opacity=10);
+	}
+	to {
+		opacity: 1;
+		filter: alpha(opacity=100);
+	}
+}
+@-moz-keyframes videoshowcaseThemeOverlayInstall /*Firefox*/
+{
+	from {
+		opacity: 0.1;
+		filter: alpha(opacity=10);
+	}
+	to {
+		opacity: 1;
+		filter: alpha(opacity=100);
+	}
+}
+@-webkit-keyframes videoshowcaseThemeOverlayInstall /*Safari and Chrome*/
+{
+	from {
+		opacity: 0.1;
+		filter: alpha(opacity=10);
+	}
+	to {
+		opacity: 1;
+		filter: alpha(opacity=100);
+	}
+}
+@keyframes hideThumbnailShowcaseTheme {
+	from {
+		opacity: 1;
+		filter: alpha(opacity=100);
+	}
+	to {
+		opacity: 0.1;
+		filter: alpha(opacity=10);
+	}
+}
+@-moz-keyframes hideThumbnailShowcaseTheme /*Firefox*/
+{
+	from {
+		opacity: 1;
+		filter: alpha(opacity=100);
+	}
+	to {
+		opacity: 0.1;
+		filter: alpha(opacity=10);
+	}
+}
+
+@-webkit-keyframes hideThumbnailShowcaseTheme /*Safari and Chrome*/
+{
+	from {
+		opacity: 1;
+		filter: alpha(opacity=100);
+	}
+	to {
+		opacity: 0.1;
+		filter: alpha(opacity=10);
+	}
+}
+@keyframes showThumbnailShowcaseTheme {
+	from {
+		opacity: 0.1;
+		filter: alpha(opacity=10);
+	}
+	to {
+		opacity: 1;
+		filter: alpha(opacity=100);
+	}
+}
+@-moz-keyframes showThumbnailShowcaseTheme /*Firefox*/
+{
+	from {
+		opacity: 0.1;
+		filter: alpha(opacity=10);
+	}
+	to {
+		opacity: 1;
+		filter: alpha(opacity=100);
+	}
+}
+@-webkit-keyframes showThumbnailShowcaseTheme /*Safari and Chrome*/
+{
+	from {
+		opacity: 0.1;
+		filter: alpha(opacity=10);
+	}
+	to {
+		opacity: 1;
+		filter: alpha(opacity=100);
+	}
+}
+a.jsn-showcase-theme-install img {
+	opacity: 1;
+	filter: alpha(opacity=100);
+	animation: showThumbnailShowcaseTheme 0.5s infinite;
+	-moz-animation: showThumbnailShowcaseTheme 0.5s infinite; /*Firefox*/
+	-webkit-animation: showThumbnailShowcaseTheme 0.5s infinite; /*Safari and Chrome*/
+	animation-iteration-count: 1;
+	-moz-animation-iteration-count: 1;
+	-webkit-animation-iteration-count: 1;
+}
+a.jsn-showcase-theme-update img,
+a.jsn-showcase-theme-miss-component img {
+	opacity: 0.1;
+	filter: alpha(opacity=10);
+	animation: hideThumbnailShowcaseTheme 0.5s infinite;
+	-moz-animation: hideThumbnailShowcaseTheme 0.5s infinite; /*Firefox*/
+	-webkit-animation: hideThumbnailShowcaseTheme 0.5s infinite; /*Safari and Chrome*/
+	animation-iteration-count: 1;
+	-moz-animation-iteration-count: 1;
+	-webkit-animation-iteration-count: 1;
+}
+a.jsn-showcase-theme-update div.jsn-showcasetheme-update-overlay-download,
+a.jsn-showcase-theme-update:hover div.jsn-showcasetheme-install-overlay-install {
+	display: block;
+	animation: videoshowcaseThemeOverlayInstall 1s infinite;
+	-moz-animation: videoshowcaseThemeOverlayInstall 1s infinite; /*Firefox*/
+	-webkit-animation: videoshowcaseThemeOverlayInstall 1s infinite; /*Safari and Chrome*/
+	animation-iteration-count: 1;
+	-moz-animation-iteration-count: 1;
+	-webkit-animation-iteration-count: 1;
+}  
+.jsn-showcasetheme-install-overlay {
+	top: 0;
+	width: 236px;
+	height: 173px;
+	display: none;	
+	position: absolute;
+}
+.jsn-showcasetheme-install-overlay-text {
+    top: 94px;
+    width: 100%;
+	color: #999999;
+    font-size: 22px;
+    font-weight: bold;
+    position: absolute;
+    text-align: center;
+}
+div.jsn-showcasetheme-install-overlay-install {
+	background: url(../images/install-icon.png) center 33px no-repeat;
+}
+div.jsn-showcasetheme-install-overlay-download {
+	background: url(../images/download.png) center 33px no-repeat;
+}
+.jsn-showcasetheme-install-update-theme {
+    left: 3px;
+    top: 45px;
+    width: 90%;
+    padding: 10px;
+    color: #999999;
+	cursor: pointer;
+    font-size: 22px;
+    line-height: 27px;
+    position: absolute;
+    text-align: center;
+    font-weight: bold;   
+}
+.jsn-showcasetheme-downloading .jsn-showcasetheme-install-update-theme,
+.jsn-showcasetheme-installing .jsn-showcasetheme-install-update-theme {
+    display: none;
+}
+.jsn-showcasetheme-install-download,
+.jsn-showcasetheme-install-installing {
+	display: none;
+}
+a.jsn-showcasetheme-installing .jsn-showcasetheme-install-overlay,
+a.jsn-showcasetheme-installing .jsn-showcasetheme-install-installing, 
+a.jsn-showcasetheme-downloading .jsn-showcasetheme-install-overlay,
+a.jsn-showcasetheme-downloading .jsn-showcasetheme-install-download {
+	display: block;
+}
+a.jsn-showcasetheme-installing img,
+a.jsn-showcasetheme-downloading img {
+	opacity: 0.1;
+	filter: alpha(opacity=10);
+}
+a.jsn-showcasetheme-installing .jsn-showcasetheme-install-showcasetheme, 
+a.jsn-showcasetheme-downloading .jsn-showcasetheme-install-showcasetheme {
+	display: none;
+}
+a.jsn-showcasetheme-installing .jsn-showcasetheme-install-overlay,
+a.jsn-showcasetheme-downloading .jsn-showcasetheme-install-overlay {
+	background: url(../images/download.png) center 33px no-repeat;
+}
+a.jsn-showcasetheme-installing  span.jsn-showcasetheme-install-loading,
+a.jsn-showcasetheme-downloading  span.jsn-showcasetheme-install-loading {
+	display: block;
+    margin: 48px 106px;
+}
+.jsn-showcasetheme-install-loading {
+	display: none;
+}
+.jsn-showcasetheme-install-action {
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 0 11px #333333;
+    -moz-box-shadow: 0 0 11px #333333;
+    -webkit-box-shadow: 0 0 11px #333333;
+}
+a.jsn-showcase-theme-miss-component .jsn-showcasetheme-install-overlay {
+	display: block;
+}
+a.jsn-showcase-theme-miss-component .jsn-showcasetheme-install-showcasetheme {
+	display: none;
+}
+.jsn-showcasetheme-install-miss-component {
+    left: 3px;
+    top: 23px;
+    width: 90%;
+    padding: 10px;
+	cursor: pointer;
+    line-height: 27px;
+}
+.jsn-showcase-selecttheme-wrapper {
+    margin: 15px 5px;
+    padding: 5px 5px;
+	border: 1px solid #CCCCCC;
+	background-color: #F9F9F9;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+.jsn-showcase-install-themes,
+.jsn-showcase-select-themes {
+	height: 330px;
+    padding: 5px 5px;
+	background-color: #F9F9F9;
+}
+.jsn-showcase-selecttheme-wrapper hr {
+	margin: 0;
+	padding: 0;
+	border-bottom: 1px solid #CCCCCC;
+}
+.jsn-showcase-select-themes {
+	height: 330px;
+}
+.jsn-showcase-theme-title {
+	width: 99%;
+	margin: auto;
+}
+.jsn-showcase-theme-title {
+	color: #666666;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin: 35px 0 15px;
+}
+.jsn-showcase-select-themes .jsn-showcase-theme-title {
+	 margin: 35px 0 15px;
+}
+#jsn-change-image-theme {
+    width: 24px;
+    height: 24px;
+    float: right;
+    margin-top: 5px;
+    display: block;
+    cursor: pointer;
+	background: url(../images/icon-uni-24/icon-theme.png) left -1px no-repeat;
+}
+.jsn-showcasetheme-install-loading #jsn-install-theme-ajax-loader-lite,
+.jsn-showcasetheme-install-loading #jsn-list-theme-ajax-loader-lite {
+	border: 0;
+	opacity: 1;
+	filter: alpha(opacity=100);	
+}
+.jsn-showcasetheme-install-download span {
+	display: none;
+	font-size: 16px;
+}
+.jsn-showcase-install-themes .jsn-item-inner img.jsn-showcasetheme-install-thumb,
+.jsn-showcase-select-themes .jsn-item-inner img.jsn-showcasetheme-install-thumb {
+	width: 235px;
+	height: 150px;
+	display: inline-block;
+	background: url(../images/ajax-loader-big.gif) center center no-repeat;
+}
+a.jsn-showcase-theme-update {
+	display: block;
+	border: 1px solid #CCCCCC;
+	background-color: #fff !important;
+}
+.jsn-item-inner a.jsn-showcase-theme-update > img {
+    border: none;
+}
+#jsn-no-showcase {
+	border: 1px solid #CCC;
+	background-color: #FFF;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+}
+#jsn-no-showcase .jsn-showcase-empty-warning {
+	width: 500px;
+	color: #D3D3D3;
+	font-size: 32px;
+	font-weight: bold;
+	padding-top: 90px;
+	margin: 105px auto;
+	text-align: center;
+	background: url(../images/icon-showlist-empty.png) center top no-repeat;
+}
+#jsn-no-showcase .jsn-showcase-empty-warning .jsn-button {
+	margin-top: 10px;
+}
+.span-link-action {
+	font-size: 14px;
+}
+.jsn-showlist-source-wrapper {
+    margin: 15px 5px;
+    padding: 5px;
+	border: 1px solid #CCCCCC;
+	background-color: #F9F9F9;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+.jsn-showlist-install-sources {
+    height: 330px;
+    padding: 5px;
+    background-color: #F9F9F9;
+    border-top: 1px solid #CCCCCC;
+}
+.jsn-showlist-select-sources {
+    height: 330px;
+    padding: 5px;
+	background-color: #F9F9F9;
+}
+.jsn-showlist-install-sources .jsn-showlist-sources-title {
+	color: #666666;
+	margin-top: 35px;
+	margin-bottom: 15px;
+}
+.jsn-showlist-select-sources .jsn-showlist-sources-title,
+.jsn-showlist-install-sources .jsn-showlist-sources-title {
+    margin: 25px 0;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.jsn-showlist-select-sources .jsn-showlist-sources-title {
+	color: #666666;
+	margin-top: 35px;
+	margin-bottom: 15px;
+}
+#jsn-showlist-new-profile {
+	padding: 10px 10px 0 10px;
+}
+#jsn-showlist-available-profile-form {
+	padding: 10px;
+}
+.jsn-showlist-login-description-products {
+	padding: 0 10px 5px 0;
+}
+.jsn-manual-install-form h1 {
+    margin: 0;
+    color: #000000;
+	border-bottom: 1px solid #CCCCCC;
+}
+.jsn-showcase-login-description-products {
+	padding: 10px 10px 5px 0;
+}
+span.jsn-errorcode {
+	color: #CC0000;
+	font-weight: bold;
+}
+.jsn-accordion-radio {
+	margin: 2px 5px 0 3px;
+}
+#jsn-install-login-form .jsn-button-container {
+	padding-top: 10px;
+}
+#jsn-showlist-manual-install > div {
+	margin: 10px 0 0 0;
+}
+#jsn-showcase-manual-install,
+#jsn-showlist-manual-install {
+	display: none;
+}
+/* ============================== UPGRADER ============================== */
+#jsn-upgrader-container {
+	width: 560px;
+	padding: 25px;
+	font-size: 12px;
+	margin: 50px auto;
+	background-color: #FFFFFF;
+	border: 1px solid #D5D5D5;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	box-shadow: 0 0 7px #999999;
+	-moz-box-shadow: 0 0 7px #999999;
+	-webkit-box-shadow: 0 0 7px #999999;
+}
+#jsn-upgrader-container h2 {
+     margin: 0 0 15px;
+}
+#jsn-is-connect-failure,
+#jsn-frm-upgrader-table tr td {
+	padding: 5px 10px;
+}
+#jsn-frm-upgrader-table input {
+	width: 33%;
+	height: 20px;
+	border-color: #809db9;
+}
+#jsn-frm-upgrader-table span.label {
+	padding: 0 10px;
+}
+#jsn-upgrader-wrapper h2 span {
+	float: right;
+}
+#jsn-is-connect-failure a,
+#jsn-upgrader-wrapper h2 span a {
+	font-size: 12px;
+	font-weight: normal;
+	text-decoration: underline;
+}
+#jsn-upgrader-upgrading,
+#jsn-upgrader-multiple-choice,
+#jsn-upgrader-data-package-installing-title {
+	display: none;
+}
+#jsn-upgrader-upgrading .jsn-upgrader-icon-small-loader {
+	display: none;
+	padding: 8px;
+	margin-left: 8px;
+	position: absolute;
+	background: url(../images/ajax-loader-circle.gif) left center no-repeat;
+}
+#jsn-upgrader-upgrading .jsn-upgrader-icon-small-successful {
+	display: none;
+	padding: 8px;
+	margin-left: 8px;
+	position: absolute;
+	background: url(../images/icon-uni-16/icons-uni-16.png) left -946px no-repeat;
+}
+#jsn-upgrader-upgrading .jsn-upgrader-icon-small-error {
+	color: #CC0000;
+	display: none;
+	padding: 8px;
+	margin-left: 8px;
+	position: absolute;
+	background: url(../images/icon-uni-16/icons-uni-16.png) left -848px no-repeat;
+}
+#jsn-upgrader-upgrading ul {
+	padding-left: 29px;
+}
+#jsn-upgrader-upgrading ul li {
+	margin: 10px 0;
+	position: relative;
+}
+#jsn-upgrader-installing-text,
+#jsn-upgrader-downloading-text {
+	display: none;
+	color: #009900;
+	margin-left: 30px;
+}
+#jsn-frm-upgrader-table select {
+    width: 75%;
+    padding: 5px;
+    font-size: 12px;
+    border-color: #809DB9;
+}
+#jsn-upgrader-no p {
+   	float: left;
+    margin-bottom: 10px;
+    padding: 5px 0 0 10px;
+}
+/* ============================== MANUAL INSTALLATION ============================== */
+#jsn-install-manual-stage-1 {
+	margin: 5px 0 0 12px
+}
+#jsn-install-manual-stage-1 a {
+	color: #1941a5;
+	font-weight: bold;
+	text-decoration: underline;
+}
+#jsn-install-manual-stage-1 ul {
+	margin: 0;
+	padding: 0;
+}
+#jsn-install-manual-stage-1 ul li {
+	margin: 3px 0 0 8px;
+}
+#jsn-install-manual-stage-2-default div,
+#jsn-install-manual-stage-2 div {
+	margin: 5px 0 0 24px;
+}
+#jsn-install-manual-stage-1 a,
+#jsn-install-manual-stage-2 a,
+#jsn-install-manual-stage-2-default a,
+#jsn-install-download-backup-file .jsn-install-download-backup-link {
+	color: #0099ca;
+	font-weight: bold;
+	text-decoration: underline;
+}
+#jsn-install-manual-stage-2 button,
+#jsn-install-manual-stage-2-default button {
+	margin: 0 auto;
+	display: inline-block;
+}
+#jsn-install-manual-stage-2 input,
+#jsn-install-manual-stage-2-default input {
+	background: #ebebe4;
+}
+#jsn-install-manual .jsn-install-manual-button,
+#jsn-install-manual-stage-2 .jsn-install-manual-button {
+	margin: 20px 0 0;
+	text-align: center;
+}
+#jsn-install-manual-stage-2-default div {
+	margin: 5px 0 0 0;
+}
+.jsn-manual-install-form div {
+	margin: 5px 0 0;
+}
+.jsn-manual-install-form p {
+	margin: 14px 0 12px;
+}
+div.jsn-manual-install-form a {
+	text-decoration: underline; 
+	font-weight: bold;
+}

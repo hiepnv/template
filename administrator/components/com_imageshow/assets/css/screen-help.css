@@ -1,0 +1,89 @@
+/**
+ * @author JoomlaShine.com Team
+ * @copyright JoomlaShine.com
+ * @link joomlashine.com
+ * @package JSN ImageShow
+ * @version $Id: screen-help.css 10362 2011-12-20 04:01:28Z hieudm $
+ * @license GNU/GPL v2 http://www.gnu.org/licenses/gpl-2.0.html
+ */
+html {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+body {
+	border: 0;
+	margin: 0;
+	padding: 1.5em;
+	font-size: 75%;
+	line-height: 1.5;
+	font-family: Arial, Helvetica, sans-serif;
+}
+p, pre, blockquote, form, dl, fieldset, address, li {
+	padding: 0;
+	margin: 0.25em 0 0.5em 0;
+}
+a {
+	color: #0B55C4;
+}
+a:hover {
+	color: #ffffff;
+	text-decoration: none;
+	background-color: #0B55C4;
+}
+li {
+	padding: 0;
+	margin: 0.25em 0;
+}
+fieldset {
+	padding: .5em;
+}
+pre {
+	padding: 1em;
+	background: #FFFFD5;
+	border-left: 5px solid #404040;
+	font-family: "Courier New", Courier, monospace;
+}
+small {
+	font-size: .85em;
+}
+sup {
+	bottom: 0.3em;
+	font-size: .8em;
+	position: relative;
+	vertical-align: baseline;
+}
+sup em {
+	color: red;
+}
+abbr,
+acronym {
+	cursor: help;
+	letter-spacing: 1px;
+	border-bottom: 1px dashed;
+}
+/* =============== HEADING STYLES =============== */
+h1, h2, h3, h4, h5, h6 {
+	margin: 1em 0 0.5em 0;
+	font-family: Tahoma, Geneva, Arial, Helvetica, sans-serif;
+}
+h1 {
+	margin-top: 0;
+	color: #000000;
+	font-size: 1.6em;
+}
+h2 {
+	color: #000000;
+	font-size: 1.4em;
+}
+h3 {
+	font-size: 1.2em;
+}
+h4 {
+	font-size: 1em;
+}
+h5, h6 {
+	color: #333333;
+	font-size: 0.9em;
+	font-weight: bold;
+}

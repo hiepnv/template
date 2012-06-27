@@ -1,0 +1,848 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:fb="http://www.facebook.com/2008/fbml" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb" >
+<head>
+
+
+
+  <base href="http://extensions.joomla.org/extensions/administration/admin-navigation/20267" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="robots" content="index, follow" />
+  <meta name="keywords" content="joomla, extensions, directory, component, module, plugin" />
+  <meta name="title" content="JSN PowerAdmin" />
+  <meta name="author" content="GS" />
+  <meta name="description" content="JSN PowerAdmin was built with one single goal in mind: to make Joomla easy and joyful to use.It’s very often that we hear reports from users about how it’s difficult to do simple things in Joomla such as change module positions, hide an article’s title or relocate menu items." />
+  <meta name="generator" content="Joomla! 1.5 - Open Source Content Management" />
+  <title>JSN PowerAdmin - Joomla! Extensions Directory</title>
+  <link href="http://extensions.joomla.org/extensions/administration/admin-navigation/20267" rel="canonical"  />
+  <link href="/templates/joomla12/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  <link rel="stylesheet" href="/components/com_finder/media/css/finder.css" type="text/css" />
+  <style type="text/css">
+    <!--
+#toTop {width:100px;z-index: 10;border: 1px solid #333; background:#121212; text-align:center; padding:5px; position:fixed; bottom:0px; right:0px; cursor:pointer; display:none; color:#fff;text-transform: lowercase; font-size: 0.9em;}.support-joomla-left-corner {display: block;position: absolute;left: 0;top: 0;height: 125px;width: 125px;background: url(http://extensions.joomla.org/modules/mod_supportjoomla/media/left-corner/green.png) no-repeat;text-indent: -999em;text-decoration: none;}
+    -->
+  </style>
+  <script type="text/javascript" src="/media/system/js/mootools.js"></script>
+  <script type="text/javascript" src="/plugins/system/jbLibrary/includes/js/jquery-1.3.2.min.js"></script>
+  <script type="text/javascript" src="/plugins/system/jx/jx.js"></script>
+  <script type="text/javascript" src="/components/com_jfbconnect/includes/jfbconnect.js"></script>
+  <script type="text/javascript">
+jQuery.noConflict();jQuery(document).ready(function(){
+				jQuery(function () {
+			var scrollDiv = document.createElement('div');
+			jQuery(scrollDiv).attr('id', 'toTop').html('^ Back to Top').appendTo('body');    
+			jQuery(window).scroll(function () {
+			        if (jQuery(this).scrollTop() != 0) {
+			            jQuery('#toTop').fadeIn();
+			        } else {
+			            jQuery('#toTop').fadeOut();
+			        }
+			    });
+			    jQuery('#toTop').click(function () {
+			        jQuery('body,html').animate({
+			            scrollTop: 0
+			        },
+			        800);
+			    });
+			});
+		
+			});
+			
+  </script>
+  <!--[if lte IE 6]>
+	   			<script type="text/javascript" src="/plugins/system/jbLibrary/includes/js/jquery.badBrowser.js"></script> 
+	   			 <![endif]-->
+  <script src="http://extensions.joomla.org/components/com_mtree/js/jquery-1.2.6.min.js" type="text/javascript"></script>
+  <script src="http://extensions.joomla.org/components/com_mtree/js/vote.js" type="text/javascript"></script>
+  <script type="text/javascript"><!-- 
+jQuery.noConflict();
+var mtoken="9e2e8ccb23c5b82ee7d75295747dbf93";
+var mosConfig_live_site="http://extensions.joomla.org";
+var ratingText=new Array();
+ratingText[5]="Excellent!";
+ratingText[4]="Good";
+ratingText[3]="Average";
+ratingText[2]="Fair";
+ratingText[1]="Very Poor";
+//--></script>
+  <script type="text/javascript">var jfbcLogoutFacebook = false;
+var jfbcBase = 'http://extensions.joomla.org/';
+var jfbcOptionsPermsUrl = 'http://extensions.joomla.org/component/jfbconnect/?task=loginFacebookUser&return=L2V4dGVuc2lvbnMvYWRtaW5pc3RyYXRpb24vYWRtaW4tbmF2aWdhdGlvbi8yMDI2Nw%3D%3D';
+var jfbcRequiredPermissions = 'email';
+</script>
+  <meta property="og:url" content="http://extensions.joomla.org/extensions/administration/admin-navigation/20267"/><meta property="og:title" content="JSN PowerAdmin - Joomla! Extensions Directory"/><meta property="og:description" content="JSN PowerAdmin was built with one single goal in mind: to make Joomla easy and joyful to use.It’s very often that we hear reports from users about how it’s difficult to do simple things in Joomla such as change module positions, hide an article’s title or relocate menu items."/><meta property="og:type" content="website" /><meta property="fb:app_id" content="103568159705954"/>
+
+<link rel="stylesheet" href="/templates/system/css/general.css" type="text/css" />
+<link rel="stylesheet" href="/templates/system/css/system.css" type="text/css" />
+
+<link rel="stylesheet" href="/templates/joomla12/css/1_grid.css" type="text/css" />
+<link rel="stylesheet" href="/templates/joomla12/css/2_joomla.css" type="text/css" />
+<link rel="stylesheet" href="/templates/joomla12/css/3_layout.css" type="text/css" />
+<link rel="stylesheet" href="/templates/joomla12/css/4_menus.css" type="text/css" />
+<link rel="stylesheet" href="/templates/joomla12/css/5_mosets.css" type="text/css" />
+<link rel="stylesheet" href="/templates/joomla12/css/slimbox.css"  type="text/css" />
+
+<script src="/templates/joomla12/js/breakout.js" type="text/javascript"></script>
+<script src="/templates/joomla12/js/slimbox.js" type="text/javascript"></script>
+
+<!--[if IE]>
+<link rel="stylesheet" href="/templates/joomla12/css//ie.css" type="text/css" />
+<![endif]-->
+<!--[if IE 6]>
+<style>
+body {behavior: url("/templates/joomla12/css/csshover3.htc");} #menu li .drop {background:url("images/css/drop.gif") no-repeat right 8px; 
+</style>
+<![endif]-->
+<style type="text/css">
+@media all and (max-width: 1200px){
+	.support-joomla-left-corner{display:none;}
+}
+</style>
+
+<script type="text/javascript" src="http://partner.googleadservices.com/gampad/google_service.js">
+</script>
+<script type="text/javascript">
+  GS_googleAddAdSenseService("ca-pub-1189370408998555");
+  GS_googleEnableAllServices();
+</script>
+<script type="text/javascript">
+  GA_googleAddSlot("ca-pub-1189370408998555", "Joomla_Extensions");
+  GA_googleAddSlot("ca-pub-1189370408998555", "Joomla_Extensions_Side");
+</script>
+<script type="text/javascript">
+  GA_googleFetchAds();
+</script>
+</head>
+<body class="site com_mtree view- layout- task-viewlink itemid-2   homepage "><div id="fb-root"></div>
+<script type="text/javascript">
+
+
+window.fbAsyncInit = function() {
+FB.init({appId: '103568159705954', status: true, cookie: true, xfbml: true, oauth: true, channelUrl: 'http://extensions.joomla.org/components/com_jfbconnect/assets/jfbcchannel.php'});
+};
+(function() {
+var e = document.createElement('script'); e.async = true;
+e.src = document.location.protocol +
+'//connect.facebook.net/en_GB/all.js';
+document.getElementById('fb-root').appendChild(e);
+}());
+</script>
+
+<div id="menuWrap">
+  <div id="menuWrapInner" class="container_12 clearfix">
+  <div id="menu" class="width"> 
+    <!--Begin Menu-->
+    <ul id="menu">
+      <li class="home_item"><a href="http://www.joomla.org/" class="drop"><span class="logo">Joomla!<span class="sup">&reg;</span></span></a>
+      	<!-- Begin Home Item -->
+        <div class="dropdown_2columns">
+          <!-- Begin 2 columns container -->
+          <div class="col_2">
+            <h2>Welcome to Joomla!</h2>
+          </div>
+          <div class="col_2">
+            <p>Joomla! is an award-winning open source CMS for building powerful websites.</p>
+          </div>
+          <div class="col_2">
+            <h2>Recent Joomla! News</h2>
+          </div>
+          <div class="col_2"> <img src="/templates/joomla12/images/menu/joomla.jpg" class="img_left imgshadow" width="70" height="70" alt="Joomla!" />
+            <ul class="img_left">
+              <li><a href="http://www.joomla.org/announcements.html">Announcements</a></li>
+              <li><a href="http://community.joomla.org/blogs/community.html">Joomla! Blogs</a></li>
+              <li><a href="http://magazine.joomla.org/">Joomla! Magazine</a></li>
+            </ul>
+          </div>
+          <div class="col_2">
+            <h2>Support Joomla!</h2>
+          </div>
+          <div class="col_1">
+            <ul class="greybox">
+              <li class="blue"><a href="http://shop.joomla.org/">Shop Joomla! Gear</a></li>
+            </ul>
+          </div>
+          <div class="col_1">
+            <ul class="greybox">
+              <li class="blue"><a href="http://opensourcematters.org/support-joomla.html">Contribution</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- End 2 columns container --> 
+      </li>
+      <!-- End Home Item -->
+      <li><a href="http://www.joomla.org/about-joomla.html" class="drop">About</a>
+      	<!-- Begin 5 columns Item -->
+        <div class="dropdown_4columns">
+          <!-- Begin 5 columns container -->
+          <div class="col_4">
+            <h2>What Is Joomla?</h2>
+            <p>Joomla is an award-winning content management system (CMS), which enables you to build Web sites and powerful online applications.<br /><a href="http://www.joomla.org/about-joomla.html">Read more...</a></p>
+          </div>
+          <div class="col_2">
+            <h3>Joomla! for Business</h3>
+            <p>Joomla! is a extremely customizable and adaptable for Enterprise, SMBs, NPOs and beyond. <a href="http://www.joomla.org/core-features.html">Read more...</a></p>
+          </div>
+          <div class="col_2">
+            <h3>Joomla! for Developers</h3>
+            <p class="black_box">No matter what level of experience you hold, Joomla! has strengths to match; programmers, designers and end users alike!<a href="http://developer.joomla.org/">Read more...</a></p>
+          </div>
+          <div class="col_4">
+            <h2>Learn more about Joomla!</h2>
+          </div>
+          <div class="col_1">
+            <ul class="greybox">
+              <li><a href="http://www.joomla.org/about-joomla.html">The Software</a></li>
+            </ul>
+          </div>
+          <div class="col_1">
+            <ul class="greybox">
+              <li><a href="http://www.joomla.org/about-joomla/the-project.html">The Project</a></li>
+            </ul>
+          </div>
+          <div class="col_1">
+            <ul class="greybox">
+              <li><a href="http://www.joomla.org/about-joomla/the-project/leadership-team.html">The Leadership</a></li>
+            </ul>
+          </div>
+          <div class="col_1">
+            <ul class="greybox">
+              <li><a href="http://opensourcematters.org/index.php">Open Source Matters</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- End 5 columns container --> 
+      </li>
+      <!-- End 5 columns Item -->
+      <li><a href="http://community.joomla.org/" class="drop">Community &amp; Support</a>
+      	<!-- Begin 4 columns Item -->
+        <div class="dropdown_3columns"><!-- Begin 4 columns container -->
+          <div class="col_1">
+            <h3>Connect!</h3>
+            <ul>
+              <li><a href="http://people.joomla.org/">Joomla! People Site</a></li>
+              <li><a href="http://community.joomla.org/events.html">Joomla! Events</a></li>
+              <li><a href="http://ux.joomla.org/">Joomla! UX</a></li>
+              <li><a href="http://community.joomla.org/user-groups.html">Joomla! User Groups</a></li>
+            </ul>
+          </div>
+          <div class="col_1">
+            <h3>Support!</h3>
+            <ul>
+              <li><a href="http://forum.joomla.org/">Joomla! Forum</a></li>
+              <li><a href="http://docs.joomla.org/">Joomla! Documentation</a></li>
+              <li><a href="http://resources.joomla.org/">Joomla! Resources</a></li>
+            </ul>
+          </div>
+          <div class="col_1">
+            <h3>Read!</h3>
+            <ul>
+              <li><a href="http://magazine.joomla.org/">Joomla! Magazine</a></li>
+              <li><a href="http://community.joomla.org/connect.html">Joomla! Connect</a></li>
+              <li><a href="http://www.joomla.org/mailing-lists.html">Joomla! Mailing Lists</a></li>
+            </ul>
+          </div>
+          <div class="col_3">
+            <h2>Get involved with Joomla!</h2> <img src="/templates/joomla12/images/menu/joomla.jpg" alt="Joomla!" width="70" height="70" class="img_left imgshadow" />
+            <p>Joomla is an open source project and contributions from the community are essential to its growth and success. Anyone can contribute on any level, even newcomers can contribute to Joomla. <a href="http://www.joomla.org/about-joomla/contribute-to-joomla.html">Read more...</a></p>
+          </div>
+        </div>
+        <!-- End 4 columns container --> 
+      </li>
+      <!-- End 4 columns Item -->
+      <li><a href="http://extensions.joomla.org/" class="drop">Extend</a>
+      	<!-- Begin 4 columns Item -->
+        <div class="dropdown_2columns">
+          <!-- Begin 4 columns container -->
+          <div class="col_1">
+            <h3>Directories</h3>
+            <ul>
+              <li><a href="http://extensions.joomla.org/">Extension Directory</a></li>
+              <li><a href="http://community.joomla.org/showcase/">Showcase Directory</a></li>
+              <li><a href="http://resources.joomla.org/">Resource Directory</a></li>
+              <li><a href="http://community.joomla.org/translations.html">Translations</a></li>
+              <li><a href="http://ideas.joomla.org/">Idea Pool</a></li>
+            </ul>
+          </div>
+          <div class="col_1">
+            <h3>Developers</h3>
+            <ul>
+              <li><a href="http://developer.joomla.org/">Developer Site</a></li>
+              <li><a href="http://docs.joomla.org/">Documentation</a></li>
+              <li><a href="http://docs.joomla.org/Bug_Squad">Joomla! Bug Squad</a></li>
+              <li><a href="http://api.joomla.org/">Joomla! API</a></li>
+              <li><a href="http://joomlacode.org/">JoomlaCode</a></li>
+              <li><a href="https://github.com/joomla/joomla-platform">Joomla! Platform</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- End 4 columns container --> 
+      </li>
+      <!-- End 4 columns Item -->
+      <li class="download"><a href="http://www.joomla.org/download.html" class="drop">Download</a>
+        <!-- Begin 3 columns Item -->
+        <div class="dropdown_3columns">
+          <!-- Begin 3 columns container -->
+          <div class="col_3">
+            <h2>Download Joomla! 2.5</h2>
+          </div>
+          <div class="col_1">
+            <ul class="greybox">
+              <li class="orange"><a href="http://www.joomla.org/download.html">2.5 Full Package</a></li>
+            </ul>
+          </div>
+          <div class="col_1">
+            <ul class="greybox">
+              <li><a href="http://joomlacode.org/gf/project/joomla/frs/?action=index">Update Packages</a></li>
+            </ul>
+          </div>
+          <div class="col_1">
+            <ul class="greybox">
+              <li><a href="http://demo.joomla.org/">Demo Joomla! 2.5</a></li>
+            </ul>
+          </div>
+          <div class="col_3">
+            <h2>Download Joomla! 1.5 </h2>
+          </div>
+          <div class="col_1">
+            <ul class="greybox">
+              <li class="blue"><a href="http://www.joomla.org/download.html">1.5 Full Package</a></li>
+            </ul>
+          </div>
+          <div class="col_1">
+            <ul class="greybox">
+              <li><a href="http://joomlacode.org/gf/project/joomla/frs/?action=index">Update Packages</a></li>
+            </ul>
+          </div>
+          <div class="col_1">
+            <ul class="greybox">
+              <li><a href="http://demo.joomla.org/">Demo Joomla! 1.5</a></li>
+            </ul>
+          </div>
+          <div class="col_3">
+            <h2>Getting Started with Joomla!</h2>
+          </div>
+          <div class="col_3">
+            <ul class="nowrap">
+              <li><a href="http://docs.joomla.org/Beginners">Beginner Documentation</a></li>
+              <li><a href="http://www.joomla.org/technical-requirements.html">Technical Requirements</a></li>
+              <li><a href="http://opensourcematters.org/index.php?option=com_content&view=article&id=56&Itemid=155">License &amp; Usage</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- End 3 columns container --> 
+      </li>
+		<li class="menu_right language"><a href="http://community.joomla.org/translations.html" class="drop language_link">Internationalization</a><!-- Begin 3 columns Item -->
+		
+		    <div class="dropdown_1column align_right"><!-- Begin 3 columns container -->
+		        
+		        <div class="col_1">
+		            <h2>Internationalization
+		            </h2>
+		        </div>
+		        
+		        <div class="col_1">
+		            <ul class="nowrap">
+		                <li><a href="http://community.joomla.org/translations.html">Translations</a></li>
+		                <li><a href="http://multilingual-joomla-demo.cloudaccess.net/">Multilingual Demo</a></li>
+		                <li><a href="http://docs.joomla.org/Translations_Working_Group">Translation Working Group</a></li>
+		                <li><a href="http://forum.joomla.org/viewforum.php?f=11">Translations Forum</a></li>
+		            </ul> 
+		        </div>
+		    
+		    </div><!-- End 3 columns container -->
+		    
+		</li><!-- End 3 columns Item -->
+      <li class="menu_right search">
+        
+<script type="text/javascript">
+//<![CDATA[
+	window.addEvent('domready', function() {
+		var value;
+
+		// Set the input value if not already set.
+		if (!$('mod_finder_q45').getProperty('value')) {
+			$('mod_finder_q45').setProperty('value', 'search...');
+		}
+
+		// Get the current value.
+		value = $('mod_finder_q45').getProperty('value');
+
+		// If the current value equals the previous value, clear it.
+		$('mod_finder_q45').addEvent('focus', function() {
+			if (this.getProperty('value') == value) {
+				this.setProperty('value', '');
+			}
+		});
+
+		// If the current value is empty, set the previous value.
+		$('mod_finder_q45').addEvent('blur', function() {
+			if (!this.getProperty('value')) {
+				this.setProperty('value', value);
+			}
+		});
+
+		$('mod-finder-45').addEvent('submit', function(e){
+			e = new Event(e);
+			e.stop();
+
+			// Disable select boxes with no value selected.
+			if ($chk($('mod-finder-45-advanced'))) {
+				$('mod-finder-45-advanced').getElements('select').each(function(s){
+					if (!s.getProperty('value')) {
+						s.setProperty('disabled', 'disabled');
+					}
+				});
+			}
+
+			$('mod-finder-45').submit();
+		});
+
+		/*
+		 * This segment of code sets up the autocompleter.
+		 */
+	});
+//]]>
+</script>
+
+<div class="finder">
+	<form id="mod-finder-45" action="/search" method="get">
+		<input type="text" name="q" id="mod_finder_q45" class="inputbox" size="18" value="" /><button class="button finder" type="submit">Go</button>
+			<br />
+		<a href="/search">Advanced Search</a>
+		</form>
+</div>
+      </li>
+    </ul>
+    <!--End Menu--> 
+  </div>
+</div>
+</div>
+
+    <div id="titleWrap">
+        <div id="title" class="container_12 clearfix">
+        	<div class="grid_7">
+		        <h1 title="JSN PowerAdmin - Joomla! Extensions Directory">The Joomla! Extensions Directory &trade;</h1>
+        	</div>
+        	<div class="grid_5 right">
+        		<div class="downdemo">
+        		    <p class="download-16">
+        		    	<a href="http://www.joomla.org/download.html">Download</a>
+        		    </p>
+        		    <p class="demo">
+        		    	<a href="http://demo.joomla.org">Demo</a>
+        		    </p>
+        		</div>
+        	</div>
+        	<div class="clear"></div>
+        </div>
+    </div>
+    <div class="clear"></div>
+
+<div id="insetWrap">
+	<div id="inset" class="container_12 clearfix">
+    	<ul class="menujed">
+<li><a href="/">Home</a></li>
+<li><a href="/extensions">All Categories</a></li>
+<li><a href="/extensions/new">New Extensions</a><a href="http://feeds.joomla.org/JoomlaExtensions"><img src="/images/jed/rss.png" alt="New Extensions" /></a></li>
+<li><a href="/extensions/updated">Recently Updated</a><a href="http://feeds.joomla.org/JoomlaExtensionsUpdated"><img src="/images/jed/rss.png" alt="Recently Updated" /></a></li>
+</ul>
+        <div class="clear"></div>
+    </div>
+</div>
+<div class="clear"></div>
+<div id="containerWrap">
+    <div id="container" class="container_12 clearfix">
+
+        <div id="mainbody" class="grid_9 push_3 maincontent">
+                        <div class="clr"></div>
+            
+             
+
+      			<div id="mainContentArea">
+        			<center>
+        				<div style="overflow: hidden; width: 100%; margin: 10px 0;">
+        					<script type="text/javascript">
+        					  GA_googleFillSlot("Joomla_Extensions");
+        					</script>
+        				</div>
+        			</center>
+
+        			        			<div id="pathway">
+        					<span class="breadcrumbs pathway">
+<a href="http://extensions.joomla.org/" class="pathway">Home</a> <img src="/images/M_images/arrow.png" alt=""  /> <a href="/extensions/administration" class="pathway">Administration</a> <img src="/images/M_images/arrow.png" alt=""  /> <a href="/extensions/administration/admin-navigation" class="pathway">Admin Navigation</a> <img src="/images/M_images/arrow.png" alt=""  /> </span>
+
+        			</div>
+        			<div style="padding-top:6px; display:inline;">
+<div id="linkedin" style="width:95px; float:left;"><script type="text/javascript" src="http://platform.linkedin.com/in.js"></script><script type="in/share" data-url="http://extensions.joomla.org/index.php?option=com_mtree&task=viewlink&link_id=20267" data-counter="right"></script></div>
+<div id="plusone" style="width:75px; float:left;"><g:plusone size="medium" href="http://extensions.joomla.org/index.php?option=com_mtree&amp;task=viewlink&amp;link_id=20267" count="true"></g:plusone></div>
+<div id="twitter" style="float:left;"><a style="padding-top:10px;" href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="Joomla #JED">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script></div>
+<div id="fbsend" style="float:left;">
+<fb:send href="http://extensions.joomla.org/index.php?option=com_mtree&amp;task=viewlink&amp;link_id=20267" font="verdana"></fb:send>
+</div>
+<div id="facebook" style="float:left; padding-left:5px;">
+<iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fextensions.joomla.org%2Findex.php%3Foption%3Dcom_mtree%26task%3Dviewlink%26link_id%3D20267&amp;layout=standard&amp;show_faces=false&amp;width=350&amp;action=like&amp;font=verdana&amp;colorscheme=light&amp;height=25" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:350px; height:25px;" allowTransparency="true"></iframe></div>
+<br />
+</div>
+<div xmlns:v="http://rdf.data-vocabulary.org/#" typeof="v:Review-aggregate" id="listing">
+<h2>
+<span property="v:itemreviewed">
+<a href="/extensions/administration/admin-navigation/20267" >JSN PowerAdmin</a> <img src="http://extensions.joomla.org/images/jed/jed_status_popular.png" alt="Popular" /> </span>
+<img src="http://extensions.joomla.org/images/jed/ext_com.png" width="17" height="17" hspace="2" alt="Component" title="Component" align="top" /><img src="http://extensions.joomla.org/images/jed/ext_plugin.png" width="17" height="17" hspace="2" alt="Plugin" title="Plugin" align="top" /><img src="http://extensions.joomla.org/images/jed/ext_lang.png" width="17" height="17" hspace="2" alt="Language" title="Language" align="top" /></h2>
+
+<div id="header">
+	<div class="logo">
+	<a href="/extensions/image/36388"><img border="0" src="http://extensions.joomla.org/components/com_mtree/img/listings/s/36388.png" width="110" height="110" alt="36388.png" /></a>	</div>
+    <div class="fields_ext">
+	<div class="caption">Version</div><div class="data">1.0.7 <i>(last update on Jun 1, 2012)</i></div><div class="caption ccol2">Rating</div><div class="data dcol2"><span rel="v:rating"><span typeof="v:Rating"><div class="rating"><span property="v:average" style="color:green; font-size: 20px;">4.86</span> out of <span property="v:best" style="font-size: 15px; font-weight:bold;">5.00</span></span></span> from <span property="v:count">22</span> users.</div></div><div class="caption">Compatibility</div><div class="data"><span><img src="http://extensions.joomla.org/images/jed/compat_25.png" width="" height="" alt="Joomla! 2.5 Series" align="top" /></span></div><div class="caption ccol2">Votes</div><div class="data dcol2">						<div class="favourite">
+						<span class="fav-caption">Favoured</span>
+						<span id="fav-count">37</span>
+						</div>
+					</div><div class="caption">License</div><div class="data"><div class="data_license">GPLv2 or later</div><div class="caption_type">Non-Commercial</div><div class="data_type">Type</div></div><div class="caption ccol2">Views</div><div class="data dcol2">19613</div><div class="caption">Date Added</div><div class="data">10 May 2012</div>	</div>
+	<div class="fields_dev">
+				<div class="caption ccol3">Developer</div>
+		<div class="data dcol3"><a href="/extensions/owner/gsmeanspro">JoomlaShine</a></div>
+
+				<div class="caption ccol3">Website</div>
+		<div class="data dcol3"><a href="/extensions/administration/admin-navigation/20267/visit" target="_blank">Website</a></div>
+			</div>
+	<div class="fields_buttons">
+	<a href="http://www.joomlashine.com/index.php?option=com_lightcart&amp;controller=download&amp;task=directdownload&amp;file_id=61" target="_blank"><img src="http://extensions.joomla.org/images/jed/btn_download.png" alt="Download URL" hspace="3" /></a><a href="http://www.joomlashine.com/joomla-extensions/jsn-poweradmin-quick-start-video.html" target="_blank"><img src="http://extensions.joomla.org/images/jed/btn_demo.png" alt="Demo URL" hspace="3" /></a><a href="http://www.joomlashine.com/forum.html" target="_blank"><img src="http://extensions.joomla.org/images/jed/btn_support.png" alt="Support Forum URL" hspace="3" /></a><a href="http://www.joomlashine.com/joomla-extensions/jsn-poweradmin-docs.zip" target="_blank"><img src="http://extensions.joomla.org/images/jed/btn_documentation.png" alt="Documentation URL" hspace="3" /></a>	</div>
+</div>
+<span class="listing-desc">JSN PowerAdmin was built with one single goal in mind: to make Joomla easy and joyful to use.<br />
+<br />
+It’s very often that we hear reports from users about how it’s difficult to do simple things in Joomla such as change module positions, hide an article’s title or relocate menu items. So, we decided to take a good look at how people use Joomla and created an ultimate solution to make the process much easier and joyful.<br />
+<br />
+This is not a commercial product; you can download it right now for free. What we want is to contribute to a wonderful Joomla CMS and express our vision of how the Joomla administration interface should be.<br />
+<br />
+***** Watch "Quick Tour Video" *****<br />
+<a href="http://www.joomlashine.com/joomla-extensions/jsn-poweradmin-quick-start-video.html" target="_blank">http://www.joomlashine.com/joomla-extensions/jsn-poweradmin-quick-start-video.html</a> <br />
+<br />
+***** Download for free *****<br />
+<a href="http://www.joomlashine.com/joomla-extensions/jsn-poweradmin-details.html" target="_blank">http://www.joomlashine.com/joomla-extensions/jsn-poweradmin-details.html</a> <br />
+<br />
+Languages Available: English, German, Dutch, French and Russian.</span></div><p class="report">
+	<a href="/extensions/administration/admin-navigation/20267/report#action"><img src="http://extensions.joomla.org/images/jed/btn_report.png" alt="Report" /></a>
+</p>
+<div id="currentrating">
+    </div>
+    
+<div class="reviews">
+	<div class="title">Images</div>
+	<div class="gallery">
+	<div class="thumbnail" style="text-align:center; width:140px;height:120px"><a rel="lightbox-20267" href="http://extensions.joomla.org//components/com_mtree/img/listings/m/36389.png"><img border="0" src="http://extensions.joomla.org/components/com_mtree/img/listings/s/36389.png" width="110" height="110" alt="36389.png" /></a></div><div class="thumbnail" style="text-align:center; width:140px;height:120px"><a rel="lightbox-20267" href="http://extensions.joomla.org//components/com_mtree/img/listings/m/36390.png"><img border="0" src="http://extensions.joomla.org/components/com_mtree/img/listings/s/36390.png" width="110" height="110" alt="36390.png" /></a></div><div class="thumbnail" style="text-align:center; width:140px;height:120px"><a rel="lightbox-20267" href="http://extensions.joomla.org//components/com_mtree/img/listings/m/36391.png"><img border="0" src="http://extensions.joomla.org/components/com_mtree/img/listings/s/36391.png" width="110" height="110" alt="36391.png" /></a></div><div class="thumbnail" style="text-align:center; width:140px;height:120px"><a rel="lightbox-20267" href="http://extensions.joomla.org//components/com_mtree/img/listings/m/36392.png"><img border="0" src="http://extensions.joomla.org/components/com_mtree/img/listings/s/36392.png" width="110" height="110" alt="36392.png" /></a></div><div class="thumbnail" style="text-align:center; width:140px;height:120px"><a rel="lightbox-20267" href="http://extensions.joomla.org//components/com_mtree/img/listings/m/36393.png"><img border="0" src="http://extensions.joomla.org/components/com_mtree/img/listings/s/36393.png" width="110" height="110" alt="36393.png" /></a></div>	</div>
+
+</div>
+<div class="reviews">
+	<div class="title">
+		<span><a name="action">Reviews (22)</a></span>
+		<div class="button"><a href="/extensions/administration/admin-navigation/20267/review"><img src="http://extensions.joomla.org/images/jed/btn_review.png" alt="Review" /></a></div>
+	</div>
+
+		<div class="review"><div class="review-head"><div class="review-title"><div class="review-rating"><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /></div><a href="/extensions/administration/admin-navigation/20267#rev-122002" id="rev-122002">Amazing Extension</a></div><div class="review-info">	</div><div id="rhc122002" class="found-helpful" style="display:none"><span id="rh122002"></span></div></div>		<div class="review-text"><div id="reviewerprofile">
+		<div id="revimg"><img src="http://www.gravatar.com/avatar/27269f08a6bfed89cc9d96afe192d322.jpg?s=60&d=mm" /></div><div id="reviewer"><span class="review-owner" style="text-align:center;"><a href="/extensions/reviews/iamrobert">iamrobert</a></span></div><div id="revdate">2012-06-14</div><div id="revhist">Reviews: <a href="/extensions/reviews/iamrobert">4</a></div></div>
+		This product will save you hours of time, and should be the default Joomla Administrator menu bar. <br />
+<br />
+My only suggestions are:<br />
+1. have the option to hide the delete button - some clients might accidentally click it<br />
+2. have the option of adding the site's name or logo to the left of the bar<div class="owners-reply"><span>Owner's reply</span><p>Thank you for your review. We will take into consideration your ideas to improve the product.</p></div>		</div>
+		
+	</div>
+		<div class="review"><div class="review-head"><div class="review-title"><div class="review-rating"><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /></div><a href="/extensions/administration/admin-navigation/20267#rev-121851" id="rev-121851">Wonderful extension</a></div><div class="review-info">	</div><div id="rhc121851" class="found-helpful" style="display:none"><span id="rh121851"></span></div></div>		<div class="review-text"><div id="reviewerprofile">
+		<div id="revimg"><img src="http://www.gravatar.com/avatar/24778500e349611e6830232bf599a726.jpg?s=60&d=mm" /></div><div id="reviewer"><span class="review-owner" style="text-align:center;"><a href="/extensions/reviews/jeff_gtech">jeff_gtech</a></span></div><div id="revdate">2012-06-11</div><div id="revhist">Reviews: <a href="/extensions/reviews/jeff_gtech">2</a></div></div>
+		Excellent extension now I organize my site quickly.		</div>
+		
+	</div>
+		<div class="review"><div class="review-head"><div class="review-title"><div class="review-rating"><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /><img src="http://extensions.joomla.org/components/com_mtree/img/star_00.png" width="16" height="16" hspace="1" alt="" /></div><a href="/extensions/administration/admin-navigation/20267#rev-121598" id="rev-121598">Promising component</a></div><div class="review-info">	</div><div id="rhc121598" class="found-helpful" style="display:none"><span id="rh121598"></span></div></div>		<div class="review-text"><div id="reviewerprofile">
+		<div id="revimg"><img src="http://www.gravatar.com/avatar/c4f70890b82715d3d4f357ee4e3964f5.jpg?s=60&d=mm" /></div><div id="reviewer"><span class="review-owner" style="text-align:center;"><a href="/extensions/reviews/thomasmes">thomasmes</a></span></div><div id="revdate">2012-06-07</div><div id="revhist">Reviews: <a href="/extensions/reviews/thomasmes">4</a></div></div>
+		This makes your site management easy!<br />
+<br />
+A couple of suggestions:<br />
+<br />
+- the ability to add articles and modules<br />
+- please reduce the size of the title and the white space in the component to increase the working space.<br />
+- A double click on a menu items selects that item/page<div class="owners-reply"><span>Owner's reply</span><p>Thank you for your review. We will take into consideration your ideas to improve the product.</p></div>		</div>
+		
+	</div>
+		<div class="review"><div class="review-head"><div class="review-title"><div class="review-rating"><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /></div><a href="/extensions/administration/admin-navigation/20267#rev-121591" id="rev-121591">Joomla backend as it shoot have been !!</a></div><div class="review-info">	</div><div id="rhc121591" class="found-helpful" style="display:none"><span id="rh121591"></span></div></div>		<div class="review-text"><div id="reviewerprofile">
+		<div id="revimg"><img src="http://www.gravatar.com/avatar/3395ec01722629fef6b135ee69fb8a7b.jpg?s=60&d=mm" /></div><div id="reviewer"><span class="review-owner" style="text-align:center;"><a href="/extensions/reviews/hiker">hiker</a></span></div><div id="revdate">2012-06-07</div><div id="revhist">Reviews: <a href="/extensions/reviews/hiker">2</a></div></div>
+		Having a site with lots of components, modules and plugins. It sometimes get's a little bit frustrating to find the right extension. Then I discovered &quot;JSN PowerAdmin&quot;<br />
+This is such a powerfull/beautiful extension !!<br />
+<br />
+I love the search function and the menu creator.<br />
+<br />
+I can't wait to see more functions added like Zoo editor. :-)		</div>
+		
+	</div>
+		<div class="review"><div class="review-head"><div class="review-title"><div class="review-rating"><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /></div><a href="/extensions/administration/admin-navigation/20267#rev-121577" id="rev-121577">Must Have For All 2.5 Sites!</a></div><div class="review-info">	</div><div id="rhc121577" class="found-helpful" style="display:none"><span id="rh121577"></span></div></div>		<div class="review-text"><div id="reviewerprofile">
+		<div id="revimg"><img src="http://www.gravatar.com/avatar/d447508082938bfe822444de17ddada6.jpg?s=60&d=mm" /></div><div id="reviewer"><span class="review-owner" style="text-align:center;"><a href="/extensions/reviews/yaani">yaani</a></span></div><div id="revdate">2012-06-07</div><div id="revhist">Reviews: <a href="/extensions/reviews/yaani">33</a></div></div>
+		Well this extension is being added to my short list of extensions that must be installed on ALL my Joomla sites. Makes administration backend a joy to navigate. The Ajax search brings up results as you type to help you quickly find any module, article, plugin, etc.. &amp; be able to edit it with just one click! Don't delay - Try it today and you will be hooked!		</div>
+		
+	</div>
+		<div class="review"><div class="review-head"><div class="review-title"><div class="review-rating"><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /></div><a href="/extensions/administration/admin-navigation/20267#rev-121325" id="rev-121325">Thanks a lot :-)</a></div><div class="review-info">	</div><div id="rhc121325" class="found-helpful" style="display:none"><span id="rh121325"></span></div></div>		<div class="review-text"><div id="reviewerprofile">
+		<div id="revimg"><img src="http://www.gravatar.com/avatar/9929cef8a1d3da91f34789691b274ce4.jpg?s=60&d=mm" /></div><div id="reviewer"><span class="review-owner" style="text-align:center;"><a href="/extensions/reviews/Kyna">Kyna</a></span></div><div id="revdate">2012-06-03</div><div id="revhist">Reviews: <a href="/extensions/reviews/Kyna">1</a></div></div>
+		I find this extension really useful.<br />
+<br />
+Even before I started to work with the cp there were a lot of advantages which made working on my joomla-sites more comfortable		</div>
+		
+	</div>
+		<div class="review"><div class="review-head"><div class="review-title"><div class="review-rating"><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /></div><a href="/extensions/administration/admin-navigation/20267#rev-121133" id="rev-121133">A must have component</a></div><div class="review-info">	</div><div id="rhc121133" class="found-helpful" style="display:none"><span id="rh121133"></span></div></div>		<div class="review-text"><div id="reviewerprofile">
+		<div id="revimg"><img src="http://www.gravatar.com/avatar/5be0f13d0acbca26cf61352e456d19a1.jpg?s=60&d=mm" /></div><div id="reviewer"><span class="review-owner" style="text-align:center;"><a href="/extensions/reviews/Herm">Herm</a></span></div><div id="revdate">2012-05-31</div><div id="revhist">Reviews: <a href="/extensions/reviews/Herm">2</a></div></div>
+		JSN PowerAdmin is a great timesaver. It adds drag &amp; drop functionality to menues and modules. The livesearch over articles, modules, menues, plugins ... is perfect. You visually can administrate all contentelements like releasedate, author, category etc. I simply love it! Thanks to Joomlashine.		</div>
+		
+	</div>
+		<div class="review"><div class="review-head"><div class="review-title"><div class="review-rating"><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /></div><a href="/extensions/administration/admin-navigation/20267#rev-120678" id="rev-120678">Really Great Component</a></div><div class="review-info">	</div><div id="rhc120678" class="found-helpful" style="display:none"><span id="rh120678"></span></div></div>		<div class="review-text"><div id="reviewerprofile">
+		<div id="revimg"><img src="http://www.gravatar.com/avatar/ae6d15a2b6e4ecfe3e7eaf12499f7612.jpg?s=60&d=mm" /></div><div id="reviewer"><span class="review-owner" style="text-align:center;"><a href="/extensions/reviews/Von-Pannier">Von Pannier</a></span></div><div id="revdate">2012-05-24</div><div id="revhist">Reviews: <a href="/extensions/reviews/Von Pannier">4</a></div></div>
+		This really is the start of something good! Although 2.5 is easier, this makes moving modules around your site really simple. Hope the next release comes soon!		</div>
+		
+	</div>
+		<div class="review"><div class="review-head"><div class="review-title"><div class="review-rating"><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /><img src="http://extensions.joomla.org/components/com_mtree/img/star_00.png" width="16" height="16" hspace="1" alt="" /><img src="http://extensions.joomla.org/components/com_mtree/img/star_00.png" width="16" height="16" hspace="1" alt="" /></div><a href="/extensions/administration/admin-navigation/20267#rev-120550" id="rev-120550">Somehow confusing.</a></div><div class="review-info">	</div><div id="rhc120550" class="found-helpful" style="display:none"><span id="rh120550"></span></div></div>		<div class="review-text"><div id="reviewerprofile">
+		<div id="revimg"><img src="http://www.gravatar.com/avatar/8439652f22c408439eaf285e4a342d84.jpg?s=60&d=mm" /></div><div id="reviewer"><span class="review-owner" style="text-align:center;"><a href="/extensions/reviews/Alex-de-Borba">Alex de Borba</a></span></div><div id="revdate">2012-05-22</div><div id="revhist">Reviews: <a href="/extensions/reviews/Alex de Borba">1</a></div></div>
+		I installed this extension and was hopping to have it working on the main Dashboard entrance page, to then notice that it appears on the Extensions drop-down menu.<br />
+<br />
+The idea is good, however, not been accessible directly after we login is a major drop down.<div class="owners-reply"><span>Owner's reply</span><p>Thank you for the review.<br />
+<br />
+It’s not possible to add the whole component’s GUI to dashboard, but we will add a button linking to it.</p></div>		</div>
+		
+	</div>
+		<div class="review"><div class="review-head"><div class="review-title"><div class="review-rating"><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /></div><a href="/extensions/administration/admin-navigation/20267#rev-120482" id="rev-120482">A very nice component</a></div><div class="review-info">	</div><div id="rhc120482" class="found-helpful" style="display:none"><span id="rh120482"></span></div></div>		<div class="review-text"><div id="reviewerprofile">
+		<div id="revimg"><img src="http://www.gravatar.com/avatar/b893b7cbf0fdcb054634d86bdb65a0fd.jpg?s=60&d=mm" /></div><div id="reviewer"><span class="review-owner" style="text-align:center;"><a href="/extensions/reviews/Angola">Angola</a></span></div><div id="revdate">2012-05-22</div><div id="revhist">Reviews: <a href="/extensions/reviews/Angola">3</a></div></div>
+		Thanks for a very nice component. It simplifies a lot of Admin work!		</div>
+		
+	</div>
+		<div class="review"><div class="review-head"><div class="review-title"><div class="review-rating"><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /></div><a href="/extensions/administration/admin-navigation/20267#rev-120391" id="rev-120391">Awesome!!</a></div><div class="review-info">	</div><div id="rhc120391" class="found-helpful" style="display:none"><span id="rh120391"></span></div></div>		<div class="review-text"><div id="reviewerprofile">
+		<div id="revimg"><img src="http://www.gravatar.com/avatar/ca8cca2c743ab06e989b0f72a65bd1f6.jpg?s=60&d=mm" /></div><div id="reviewer"><span class="review-owner" style="text-align:center;"><a href="/extensions/reviews/Maxwebtrento">Maxwebtrento</a></span></div><div id="revdate">2012-05-21</div><div id="revhist">Reviews: <a href="/extensions/reviews/Maxwebtrento">2</a></div></div>
+		Tried this extension on my website, very useful, adds new functions to joomla admin panel and all is much easier now!!		</div>
+		
+	</div>
+		<div class="review"><div class="review-head"><div class="review-title"><div class="review-rating"><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /></div><a href="/extensions/administration/admin-navigation/20267#rev-120363" id="rev-120363">Awsome!</a></div><div class="review-info">	</div><div id="rhc120363" class="found-helpful" style="display:none"><span id="rh120363"></span></div></div>		<div class="review-text"><div id="reviewerprofile">
+		<div id="revimg"><img src="http://www.gravatar.com/avatar/f76b2705d5aea70e9f59251a2fa30c8a.jpg?s=60&d=mm" /></div><div id="reviewer"><span class="review-owner" style="text-align:center;"><a href="/extensions/reviews/eNEXT">eNEXT</a></span></div><div id="revdate">2012-05-20</div><div id="revhist">Reviews: <a href="/extensions/reviews/eNEXT">11</a></div></div>
+		It looks really great. I can’t wait for K2 support. This extension is really a professional work!		</div>
+		
+	</div>
+		<div class="review"><div class="review-head"><div class="review-title"><div class="review-rating"><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /></div><a href="/extensions/administration/admin-navigation/20267#rev-120310" id="rev-120310">Excellent</a></div><div class="review-info">	</div><div id="rhc120310" class="found-helpful" style="display:none"><span id="rh120310"></span></div></div>		<div class="review-text"><div id="reviewerprofile">
+		<div id="revimg"><img src="http://www.gravatar.com/avatar/ed5da22a47e2603d5692054ed30cff1c.jpg?s=60&d=mm" /></div><div id="reviewer"><span class="review-owner" style="text-align:center;"><a href="/extensions/reviews/Peter-Hoecherl">Peter Hoecherl</a></span></div><div id="revdate">2012-05-19</div><div id="revhist">Reviews: <a href="/extensions/reviews/Peter Hoecherl">4</a></div></div>
+		Thanks guys for this wonderfull component. It is the best extension for Joomla! I've seen for long long time.		</div>
+		
+	</div>
+		<div class="review"><div class="review-head"><div class="review-title"><div class="review-rating"><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /></div><a href="/extensions/administration/admin-navigation/20267#rev-120274" id="rev-120274">Liked it....</a></div><div class="review-info">	</div><div id="rhc120274" class="found-helpful" style="display:none"><span id="rh120274"></span></div></div>		<div class="review-text"><div id="reviewerprofile">
+		<div id="revimg"><img src="http://www.gravatar.com/avatar/3e45bec4441d2fd6ea4c5ea8833eecae.jpg?s=60&d=mm" /></div><div id="reviewer"><span class="review-owner" style="text-align:center;"><a href="/extensions/reviews/xyamire">xyamire</a></span></div><div id="revdate">2012-05-18</div><div id="revhist">Reviews: <a href="/extensions/reviews/xyamire">1</a></div></div>
+		Search functionality and site manager is saved me lots of time. I'll install it in all of my website.		</div>
+		
+	</div>
+		<div class="review"><div class="review-head"><div class="review-title"><div class="review-rating"><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /></div><a href="/extensions/administration/admin-navigation/20267#rev-120252" id="rev-120252">saves you much time in the backend</a></div><div class="review-info">	</div><div id="rhc120252" class="found-helpful" style="display:none"><span id="rh120252"></span></div></div>		<div class="review-text"><div id="reviewerprofile">
+		<div id="revimg"><img src="http://www.gravatar.com/avatar/77d21debe1973fc7abe5505bfd748b5c.jpg?s=60&d=mm" /></div><div id="reviewer"><span class="review-owner" style="text-align:center;"><a href="/extensions/reviews/gentleman16">gentleman16</a></span></div><div id="revdate">2012-05-18</div><div id="revhist">Reviews: <a href="/extensions/reviews/gentleman16">1</a></div></div>
+		This component has a &quot;killer&quot; feature.<br />
+Once installed you can search for your installed extensions or written articles etc. in a live searchbox like the google live search! <br />
+<br />
+It makes finding things in the backend easier and faster. Should be built in joomla!<br />
+<br />
+Thank you for your work!		</div>
+		
+	</div>
+		<div class="review"><div class="review-head"><div class="review-title"><div class="review-rating"><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /></div><a href="/extensions/administration/admin-navigation/20267#rev-120208" id="rev-120208">Its superb</a></div><div class="review-info">	</div><div id="rhc120208" class="found-helpful" style="display:none"><span id="rh120208"></span></div></div>		<div class="review-text"><div id="reviewerprofile">
+		<div id="revimg"><img src="http://www.gravatar.com/avatar/04f9b9aa9463126cd1b89a58d9720701.jpg?s=60&d=mm" /></div><div id="reviewer"><span class="review-owner" style="text-align:center;"><a href="/extensions/reviews/SuccesSite">SuccesSite</a></span></div><div id="revdate">2012-05-17</div><div id="revhist">Reviews: <a href="/extensions/reviews/SuccesSite">3</a></div></div>
+		You made my life way easier now, since i have a lot of content on my site, and there will be even more.<br />
+<br />
+The quick search is very practically and easy to use.<br />
+I also like the way it shows you modules assignment. <br />
+Its ajax based i think, so there is no need to reload every page, but just click on the menu list and modules will pop up. <br />
+I can imagine only one thing for this to be better, when it cover some basic seo feauters, like title, description, keywords, and robots settings. That would be awesome. Anyway, great job.		</div>
+		
+	</div>
+		<div class="review"><div class="review-head"><div class="review-title"><div class="review-rating"><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /></div><a href="/extensions/administration/admin-navigation/20267#rev-120171" id="rev-120171">Very useful tool. Thanks JoomlaShine</a></div><div class="review-info">	</div><div id="rhc120171" class="found-helpful" style="display:none"><span id="rh120171"></span></div></div>		<div class="review-text"><div id="reviewerprofile">
+		<div id="revimg"><img src="http://www.gravatar.com/avatar/4bdeea65089cb8114225eddf695f5390.jpg?s=60&d=mm" /></div><div id="reviewer"><span class="review-owner" style="text-align:center;"><a href="/extensions/reviews/joomlapraise">joomlapraise</a></span></div><div id="revdate">2012-05-17</div><div id="revhist">Reviews: <a href="/extensions/reviews/joomlapraise">1</a></div></div>
+		WOW! This is just a great tool for developers to rapid develop. What a great product. Where do we submit feature request ;) Keep up the good work and will be using this moving forward.		</div>
+		
+	</div>
+		<div class="review"><div class="review-head"><div class="review-title"><div class="review-rating"><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /></div><a href="/extensions/administration/admin-navigation/20267#rev-120090" id="rev-120090">Perfect</a></div><div class="review-info">	</div><div id="rhc120090" class="found-helpful" style="display:none"><span id="rh120090"></span></div></div>		<div class="review-text"><div id="reviewerprofile">
+		<div id="revimg"><img src="http://www.gravatar.com/avatar/378ebed7de1af41781f2c2dd643dfb8a.jpg?s=60&d=mm" /></div><div id="reviewer"><span class="review-owner" style="text-align:center;"><a href="/extensions/reviews/philbou">philbou</a></span></div><div id="revdate">2012-05-16</div><div id="revhist">Reviews: <a href="/extensions/reviews/philbou">3</a></div></div>
+		i test it on a big site, very useful.<br />
+i save a lot of time, i include it for free for all my customers( less support)<br />
+Thank you very much		</div>
+		
+	</div>
+		<div class="review"><div class="review-head"><div class="review-title"><div class="review-rating"><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /></div><a href="/extensions/administration/admin-navigation/20267#rev-120043" id="rev-120043">A++ WOW, Fantastic, Thank You</a></div><div class="review-info">	</div><div id="rhc120043" class="found-helpful" style="display:none"><span id="rh120043"></span></div></div>		<div class="review-text"><div id="reviewerprofile">
+		<div id="revimg"><img src="http://www.gravatar.com/avatar/05a11b6947906788d0f68393d512e048.jpg?s=60&d=mm" /></div><div id="reviewer"><span class="review-owner" style="text-align:center;"><a href="/extensions/reviews/SANTINO">SANTINO</a></span></div><div id="revdate">2012-05-15</div><div id="revhist">Reviews: <a href="/extensions/reviews/SANTINO">91</a></div></div>
+		What a pleasure to try out this new component! :-)<br />
+<br />
+This Component + the easy to understand video to watch is one of the best components on Joomla today. I'm always happy to test new things to add to my business website which make my life easier, and this is one of those things that does. Fantastic Job to the developer of the Component and the Plugin. <br />
+<br />
+It loaded first time, installed perfectly on J2.5 and even added a very helpful ADMIN BAR inside the Joomla admin section........ and because I am a perfectionist I noticed one spelling mistake in the Joomla admin section. which read:<br />
+<br />
+Admin Sesion Infinite<br />
+<br />
+I think that needs to read: Admin Session Infinite<br />
+Tiny weeny mistake, nothing that glares out!<br />
+<br />
+If you are thinking about downloading this. STOP THINKING AND START DOING. IT IS BRILLIANT.<br />
+<br />
+THANK YOU! :-)<div class="owners-reply"><span>Owner's reply</span><p>Thank you for review. You have very keen eyes.<br />
+<br />
+The language issue you mentioned is already fixed in 1.0.6. You were probably trying 1.0.5.</p></div>		</div>
+		
+	</div>
+		<div class="review"><div class="review-head"><div class="review-title"><div class="review-rating"><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /><img src="http://extensions.joomla.org/components/com_mtree/img/star_10.png" width="16" height="16" hspace="1" alt="★" /></div><a href="/extensions/administration/admin-navigation/20267#rev-119839" id="rev-119839">Congratulations and more....</a></div><div class="review-info">	</div><div id="rhc119839" class="found-helpful" style="display:none"><span id="rh119839"></span></div></div>		<div class="review-text"><div id="reviewerprofile">
+		<div id="revimg"><img src="http://www.gravatar.com/avatar/eadc0b4cafe5e84206f52ac71e2e66a8.jpg?s=60&d=mm" /></div><div id="reviewer"><span class="review-owner" style="text-align:center;"><a href="/extensions/reviews/djnikosdj">djnikosdj</a></span></div><div id="revdate">2012-05-12</div><div id="revhist">Reviews: <a href="/extensions/reviews/djnikosdj">11</a></div></div>
+		If it does what it says in the video is definitely perfect,And not just perfect but super perfect for free.		</div>
+		
+	</div>
+	
+		<div class="pages-links"><span class="pagination"><span>&laquo;</span><span>Start</span><span>Prev</span><strong><span>1</span></strong><strong><a href="/extensions/administration/admin-navigation/20267/reviews2" title="2">2</a></strong><a href="/extensions/administration/admin-navigation/20267/reviews2" title="Next">Next</a><a href="/extensions/administration/admin-navigation/20267/reviews2" title="End">End</a><span>&raquo;</span></span></div>
+		<div class="pages-counter">Page 1 of 2</div>
+
+	
+</div>
+        			            </div>
+        </div>
+                <div id="sidebar" class="grid_3 pull_9 left">
+            		<div class="moduletablestat">
+					Serving <span>9559</span> extensions to the community		</div>
+			<div class="moduletable">
+					<h3>Categories</h3>
+					<ul class="menujed"><li class="parent active"><a href="/extensions">All Categories</a></li>
+<li><a href="/extensions/access-a-security">Access &amp; Security&nbsp;</a></li><li class="parent active"><a href="/extensions/administration"><strong>Administration</strong></a><ul class="menujed"><li><a href="/extensions/administration/admin-desk">Admin Desk&nbsp;</a></li><li class="parent active"><a href="/extensions/administration/admin-navigation"><strong>Admin Navigation</strong></a></li><li><a href="/extensions/administration/admin-performance">Admin Performance&nbsp;</a></li><li><a href="/extensions/administration/admin-interface">Admin Publishing&nbsp;</a></li><li><a href="/extensions/administration/admin-reports">Admin Reports&nbsp;</a></li><li><a href="/extensions/administration/admin-templates">Admin Templates&nbsp;</a></li><li><a href="/extensions/administration/extensions-quickicons">Extensions Quick Icons&nbsp;</a></li></ul></li><li><a href="/extensions/ads-a-affiliates">Ads &amp; Affiliates&nbsp;</a></li><li><a href="/extensions/authoring-a-content">Authoring &amp; Content&nbsp;</a></li><li><a href="/extensions/calendars-a-events">Calendars &amp; Events&nbsp;</a></li><li><a href="/extensions/clients-a-communities">Clients &amp; Communities&nbsp;</a></li><li><a href="/extensions/communication">Communication&nbsp;</a></li><li><a href="/extensions/contacts-and-feedback">Contacts &amp; Feedback&nbsp;</a></li><li><a href="/extensions/content-sharing">Content Sharing&nbsp;</a></li><li><a href="/extensions/core-enhancements">Core Enhancements&nbsp;</a></li><li><a href="/extensions/directory-a-documentation">Directory &amp; Documentation&nbsp;</a></li><li><a href="/extensions/e-commerce">e-Commerce&nbsp;</a></li><li><a href="/extensions/edition">Editing&nbsp;</a></li><li><a href="/extensions/extension-specific">Extension Specific&nbsp;</a></li><li><a href="/extensions/financial">Financial&nbsp;</a></li><li><a href="/extensions/hosting-a-servers">Hosting &amp; Servers&nbsp;</a></li><li><a href="/extensions/languages">Languages&nbsp;</a></li><li><a href="/extensions/living">Living&nbsp;</a></li><li><a href="/extensions/maps-a-weather">Maps &amp; Weather&nbsp;</a></li><li><a href="/extensions/migration-a-conversion">Migration &amp; Conversion&nbsp;</a></li><li><a href="/extensions/miscellaneous">Miscellaneous&nbsp;</a></li><li><a href="/extensions/mobile">Mobile&nbsp;</a></li><li><a href="/extensions/multimedia">Multimedia&nbsp;</a></li><li><a href="/extensions/news-display">News Display&nbsp;</a></li><li><a href="/extensions/photos-a-images">Photos &amp; Images&nbsp;</a></li><li><a href="/extensions/search-a-indexing">Search &amp; Indexing&nbsp;</a></li><li><a href="/extensions/site-management">Site Management&nbsp;</a></li><li><a href="/extensions/social-web">Social Web&nbsp;</a></li><li><a href="/extensions/sports-a-games">Sports &amp; Games&nbsp;</a></li><li><a href="/extensions/structure-a-navigation">Structure &amp; Navigation&nbsp;</a></li><li><a href="/extensions/style-a-design">Style &amp; Design&nbsp;</a></li><li><a href="/extensions/tools">Tools&nbsp;</a></li><li><a href="/extensions/vertical-markets">Vertical Markets&nbsp;</a></li></ul>		</div>
+			<div class="moduletable">
+					<h3>Get the Book!</h3>
+					<center><a target='new' href="http://click.linksynergy.com/fs-bin/click?id=Xy0hOcdtU4s&offerid=145238.1405647&type=2&subid=0"><IMG border=0 src="http://www.informit.com/ShowCover.aspx?isbn=0321704215&type=d" ></a><IMG border=0 width=1 height=1 src="http://ad.linksynergy.com/fs-bin/show?id=Xy0hOcdtU4s&bids=145238.1405647&type=2&subid=0" ></center>		</div>
+			<div class="moduletablesitelinks">
+					<ul class="menujed">
+<li class="item19"> <a href="http://community.joomla.org/team-blogs/jed-editors.html"><span>JED Editors' Blog »</span></a><a href="http://feedproxy.google.com/JoomlaExtensionDirectoryEditorBlog"><img src="/images/jed/rss.png" border="0" alt="JED Editors' Blog" /></a></li>
+<li class="item17"> <a href="http://docs.joomla.org/Joomla!_Extension_Directory_FAQs"><span>FAQs »</span></a></li>
+<li class="item17"> <a href="/help2?showall=1"><span>Help »</span></a></li>
+<li class="item17"> <a href="/tos"><span>Terms of Service »</span></a></li>
+<li class="item17"> <span><a href="/component/content/article/30">About the Team »</a></span></li>
+<li class="item17"><a href="/component/maqmahelpdesk/">Listing Support »</a></li>
+</ul>		</div>
+			<div class="moduletable directory-menu">
+					<h3>Directory Menu</h3>
+					<ul class="menujed">
+<li><a href="/">Home</a></li>
+<li><a href="/extensions/new">New Extensions</a><a href="http://feeds.joomla.org/JoomlaExtensions"><img src="/images/jed/rss.png" alt="New Extensions" /></a></li>
+<li><a href="/extensions/updated">Recently Updated</a><a href="http://feeds.joomla.org/JoomlaExtensionsUpdated"><img src="/images/jed/rss.png" alt="Recently Updated" /></a></li>
+<li><a href="/extensions/most-favoured">Most Favoured</a></li>
+<li><a href="/extensions/featured">Editors' Picks</a></li>
+<li><a href="/extensions/popular">Popular Extensions</a></li>
+<li><a href="/extensions/most-rated">Most Rated</a></li>
+<li><a href="/extensions/top-rated">Top Rated</a></li>
+<li><a href="/extensions/most-reviewed">Most Reviewed</a></li>
+</ul>		</div>
+			<div class="moduletablelogin">
+					<h3>Login or Register</h3>
+					    <form action="/extensions" method="post" id="login-form">
+        <fieldset class="input">
+            <div id="form-login-username">
+                <label for="modlgn_username">Username</label><br/>
+                <input id="modlgn_username" type="text" name="username" class="inputbox" alt="username" size="18"/>
+            </div>
+            <div id="form-login-password">
+                <label for="modlgn_passwd">Password</label><br/>
+                <input id="modlgn_passwd" type="password" name="passwd" class="inputbox" size="18"
+                       alt="password"/>
+            </div>
+                        <p id="form-login-remember">
+                <label for="modlgn_remember">
+                    Remember Me                </label>
+                <input id="modlgn_remember" type="checkbox" name="remember" class="inputbox" value="yes"
+                       alt="Remember Me"/>
+            </p>
+                        <input type="submit" name="Submit" class="button" value="Login"/>
+        </fieldset>
+
+        <input type="hidden" name="option" value="com_user"/><input type="hidden" name="task" value="login"/><input type="hidden" name="return" value="L2V4dGVuc2lvbnMvYWRtaW5pc3RyYXRpb24vYWRtaW4tbmF2aWdhdGlvbi8yMDI2Nw=="/>        <input type="hidden" name="9e2e8ccb23c5b82ee7d75295747dbf93" value="1" />    </form>
+    <fb:login-button v="2" size="small" scope="email" onlogin="javascript:jfbc.login.login_button_click();">Login With Facebook</fb:login-button><ul>
+            <li>
+            <a href="/component/user/?task=register">
+                Register for this site</a>
+        </li>
+                    <li>
+                <a href="/component/user/remind">
+                    Forgot Username?</a>
+            </li>
+                        <li>
+                <a href="/component/resetpassword/">
+                    Forgot Password?</a>
+            </li>
+            
+</ul>
+
+
+    		</div>
+	
+                    </div>
+                        <div class="clear"></div>
+    </div>
+</div>
+<div class="clear"></div>
+
+<div id="closingWrap"><div id="closing" class="container_12 clearfix"></div></div>
+<div class="clear"></div>
+<div id="footerWrap">
+  <div id="footer" class="container_12 clearfix">
+    <div class="inside">
+      <div id="copy">
+        <ul class="menu">
+        	<li class="item97">
+        		<a href="http://www.joomla.org"><span>Home</span></a>
+        	</li>
+        	<li class="item110"><a href="http://www.joomla.org/about-joomla.html"><span>About</span></a>
+        	</li>
+        	<li class="item98"><a href="http://community.joomla.org"><span>Community</span></a></li><li class="item99"><a href="http://forum.joomla.org"><span>Forum</span></a>
+        	</li>
+        	<li class="item100"><a href="http://extensions.joomla.org"><span>Extensions</span></a></li><li class="item206"><a href="http://resources.joomla.org"><span>Resources</span></a>
+        	</li>
+        	<li class="item102"><a href="http://docs.joomla.org"><span>Docs</span></a></li><li class="item101"><a href="http://developer.joomla.org"><span>Developer</span></a>
+        	</li>
+        	<li class="item103"><a href="http://shop.joomla.org"><span>Shop</span></a>
+        	</li>
+        </ul>
+		<div class="clr"></div>
+      </div>
+      <div id="link">
+        <div id="footerInfo">© 2005 - 2012 <a href="http://www.opensourcematters.org">Open Source Matters, Inc.</a> All rights reserved.&nbsp;&nbsp;&nbsp;
+               			
+               			<a href="http://www.joomla.org/accessibility-statement.html">Accessibility Statement</a>&nbsp;&nbsp;&nbsp;
+               			<a href="http://www.joomla.org/privacy-policy.html">Privacy Policy</a>&nbsp;&nbsp;&nbsp;
+               			<a href="http://community.joomla.org/login.html">Log in</a>&nbsp;&nbsp;&nbsp;
+               			<a href="http://www.rochenhost.com/joomla-hosting" target="_blank">Joomla Hosting by</a>&nbsp;&nbsp;
+               			<a href="http://www.rochenhost.com/joomla-hosting" target="_blank" class="rochen">Rochen Ltd.</a>
+               			<!-- end #footerInfo -->
+        </div>
+        <div class="clr"></div>
+      </div>
+      <div class="clr"></div>
+    </div>
+  </div>
+</div>
+<div id="debug">
+  <div class="width">
+    <div class="inside">
+      		<div class="moduletable">
+						<a class="support-joomla-left-corner" href="http://contribute.joomla.org" title="Support Joomla! by making a financial contribution.">
+		Support Joomla!</a>
+		</div>
+	
+    </div>
+  </div>
+</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-544070-3");
+pageTracker._setDomainName("joomla.org");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-544070-17");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+<script type="text/javascript" src="http://apis.google.com/js/plusone.js"></script>
+<img src="http://extensions.joomla.org/piwik/piwik.php?idsite=1&rec=1" style="border:0" alt="" />
+</body>
+</html>
